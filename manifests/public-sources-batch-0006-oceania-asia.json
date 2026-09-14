@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "repository_game": "Pocket Monsters Winds",
+  "research_date": "2026-09-14",
+  "batch": "0006-oceania-asia",
+  "completion_claim": false,
+  "sources": [
+    {"id":"AU-NINTENDO-WINDS","region":"AU","language":"en-AU","kind":"game-page","url":"https://www.nintendo.com/au/games/nintendo-switch-2/pokemon-winds/","status":"reviewed","notes":"local 1 player; RPG; metric first-partner data"},
+    {"id":"AU-NINTENDO-WAVES","region":"AU","language":"en-AU","kind":"game-page","url":"https://www.nintendo.com/au/games/nintendo-switch-2/pokemon-waves/","status":"reviewed","notes":"local 1 player; RPG; metric first-partner data"},
+    {"id":"AU-ESHOP-WINDS","region":"AU","language":"en-AU","kind":"eshop-page","url":"https://ec.nintendo.com/AU/en/titles/70010000122036","status":"reviewed","notes":"Save Data Cloud: Support status pending; 1 player; 8 public images visible"},
+    {"id":"AU-ESHOP-WAVES","region":"AU","language":"en-AU","kind":"eshop-page","url":"https://ec.nintendo.com/AU/en/titles/70010000122029","status":"reviewed","notes":"canonical page directly opened during census; metadata comparison retained separately"},
+    {"id":"AU-NINTENDO-POKEMON-DAY-2026","region":"AU","language":"en-AU","kind":"news","url":"https://www.nintendo.com/au/news-and-articles/happy-pokemon-day-everyone-lets-celebrate-30-years-of-pokemon/","status":"reviewed","publication_date":"2026-03-02","notes":"states simultaneous worldwide 2027 release exclusively on Nintendo Switch 2"},
+    {"id":"AU-NINTENDO-POKEMON30","region":"AU/NZ","language":"en-AU","kind":"campaign-hub","url":"https://www.nintendo.com/au/pokemon-30/","status":"reviewed","notes":"contains Winds/Waves Pokémon Presents section"},
+    {"id":"AU-NINTENDO-SWITCH2-FEATURED","region":"AU","language":"en-AU","kind":"hardware-games-hub","url":"https://www.nintendo.com/au/hardware/nintendo-switch-2/featured-games/","status":"reviewed","notes":"lists Winds and Waves as 2027 Nintendo Switch 2 titles"},
+    {"id":"AU-NINTENDO-POKEMON-HUB","region":"AU","language":"en-AU","kind":"franchise-hub","url":"https://www.nintendo.com/au/pokemon/","status":"reviewed","notes":"lists Winds and Waves among Pokémon titles"},
+
+    {"id":"NZ-ESHOP-WAVES","region":"NZ","language":"en-NZ","kind":"eshop-page","url":"https://ec.nintendo.com/NZ/en/titles/70010000122029","status":"reviewed","notes":"Save Data Cloud: Support status pending; 1 player"},
+    {"id":"NZ-ESHOP-WINDS-ATTEMPT","region":"NZ","language":"en-NZ","kind":"eshop-page","url":"https://ec.nintendo.com/NZ/en/titles/70010000122036","status":"pending-fetch-error","notes":"expected counterpart URL was directly attempted but the research fetch returned an internal error; do not classify as absent"},
+
+    {"id":"PH-NINTENDO-ANNOUNCEMENT","region":"PH","language":"en","kind":"news","url":"https://www.nintendo.com/ph/news/article/7exdME3HEo60PDMCF8DyQ2","status":"reviewed","publication_date":"2026-03-02","notes":"Winds/Waves announcement; main characters and first partner Pokémon"},
+    {"id":"TH-NINTENDO-ANNOUNCEMENT","region":"TH","language":"th/en-content","kind":"news","url":"https://www.nintendo.com/th/news/article/7exdME3HEo60PDMCF8DyQ2","status":"reviewed","publication_date":"2026-03-02","notes":"regional Nintendo announcement surface"},
+    {"id":"SG-NINTENDO-ANNOUNCEMENT","region":"SG","language":"en","kind":"news","url":"https://www.nintendo.com/sg/news/article/7exdME3HEo60PDMCF8DyQ2","status":"reviewed","publication_date":"2026-03-02","notes":"regional Nintendo announcement surface"},
+    {"id":"MY-NINTENDO-ANNOUNCEMENT","region":"MY","language":"en","kind":"news","url":"https://www.nintendo.com/my/news/article/7exdME3HEo60PDMCF8DyQ2","status":"reviewed","publication_date":"2026-03-02","notes":"regional Nintendo announcement surface"},
+
+    {"id":"HK-ESHOP-WAVES","region":"HK","language":"zh-Hant","kind":"eshop-page","url":"https://ec.nintendo.com/HK/zh/titles/70010000122031","status":"reviewed","notes":"寶可夢 波; Save Data Cloud 保管儲存資料: 未定; Switch 2; language list; Spanish in-game choice note Español (España); development-screen disclaimer"},
+    {"id":"HK-ESHOP-WINDS","region":"HK","language":"zh-Hant","kind":"eshop-page","url":null,"status":"pending-canonical-url-unresolved","notes":"targeted searches have not yet resolved the canonical Winds eShop page; do not infer absence or invent a title ID"},
+    {"id":"HK-NINTENDO-DIRECT-SURFACE","region":"HK","language":"zh-Hant","kind":"regional-official-surface","url":"https://www.nintendo.com.hk/","status":"pending-title-page-search","notes":"official regional site searched; direct Winds/Waves topic page not yet resolved"},
+    {"id":"TW-NINTENDO-DIRECT-SURFACE","region":"TW","language":"zh-Hant","kind":"regional-official-surface","url":"https://www.nintendo.tw/","status":"pending-title-page-search","notes":"official regional site searched; direct Winds/Waves topic/eShop page not yet resolved"}
+  ],
+  "open_questions": [
+    "Resolve the canonical Hong Kong Winds eShop page without guessing the Nintendo title ID.",
+    "Resolve Taiwan title/news/store surfaces if publicly published.",
+    "Enumerate any other Nintendo Asia regional domains or stores with direct Winds/Waves publications.",
+    "Recheck New Zealand Winds eShop after the current fetch error and compare all eShop metadata field by field."
+  ]
+}
