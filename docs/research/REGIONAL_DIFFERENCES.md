@@ -12,6 +12,7 @@ Japanese official material is the baseline. Other regional/language surfaces are
 | Surface | Winds title | Waves title | Status |
 | --- | --- | --- | --- |
 | Japan | ポケットモンスター ウインド | ポケットモンスター ウェーブ | Official |
+| Korea | Pokémon Winds | Pokémon Waves | Official Korean product branding uses the English pair titles on the checked surface |
 | English | Pokémon Winds | Pokémon Waves | Official |
 | France / French Belgium | Pokémon Vents | Pokémon Vagues | Official |
 | French Canada | Pokémon Winds | Pokémon Waves | Official; French page keeps English game titles |
@@ -20,6 +21,8 @@ Japanese official material is the baseline. Other regional/language surfaces are
 | Spain | Pokémon Viento | Pokémon Oleaje | Official |
 | Latin-American Spanish surfaces checked | Pokémon Viento | Pokémon Ola | Official |
 | Brazil | Pokémon Ventos | Pokémon Ondas | Official |
+| Simplified Chinese | 宝可梦 风 | 宝可梦 波 | Official |
+| Traditional Chinese | 寶可夢 風 | 寶可夢 波 | Official |
 
 The matrix is not yet a complete locale inventory. Missing rows remain open until every official locale endpoint is enumerated.
 
@@ -36,6 +39,8 @@ The matrix is not yet a complete locale inventory. Missing rows remain open unti
 | Spain | Browt | Pombon | Gecqua |
 | Latin-American Spanish surfaces checked | Browt | Pombon | Gecqua |
 | Brazil | Browt | Pombon | Gecqua |
+| Simplified Chinese | 叶眉鸟 | 博姆耿 | 妙澪儿 |
+| Traditional Chinese | 葉眉鳥 | 博姆耿 | 妙澪兒 |
 
 French Canada is a notable mixed localization case: the French-language page keeps the English game titles **Pokémon Winds / Pokémon Waves** while using the French localized partner names.
 
@@ -48,7 +53,11 @@ French Canada is a notable mixed localization case: the French-language page kee
 | English | Mr. Windychu | Ms. Wavychu |
 | France / French Belgium | Tornachu | Pikaflo |
 | Germany | Windchu | Wellchu |
+| Italy | Ventochu | Ondachu |
 | Latin-American Spanish surface checked | Sr. Vientachu | Sra. Olachu |
+| Brazil | Sr. Ventachu | Sra. Ondachu |
+| Simplified Chinese | 风风皮卡弟 | 波波皮卡妹 |
+| Traditional Chinese | 風風皮卡弟 | 波波皮卡妹 |
 
 Rows are added only after both names are directly verified on an official surface. Unverified or partially seen names are not guessed.
 
@@ -87,9 +96,12 @@ These metadata differences are recorded per storefront and should not be collaps
 ## Examples of authoritative surfaces used
 
 - Japan Pokémon: https://www.pokemon.co.jp/ex/winds_waves/ja/
+- Simplified Chinese Pokémon: https://www.pokemon.co.jp/ex/winds_waves/sc/
+- Traditional Chinese Pokémon: https://www.pokemon.co.jp/ex/winds_waves/tc/
 - Korea Pokémon: https://pokemonkorea.co.kr/winds_waves
 - US Pokémon: https://windswaves.pokemon.com/en-us/
 - French Canada Pokémon: https://windswaves.pokemon.com/fr-ca/
+- Brazil Pokémon: https://windswaves.pokemon.com/pt-br/
 - France Nintendo Winds: https://www.nintendo.com/fr-fr/Jeux/Jeux-Nintendo-Switch-2/Pokemon-Vents-3039085.html
 - Spain Nintendo Winds: https://www.nintendo.com/es-es/Juegos/Juegos-de-Nintendo-Switch-2/Pokemon-Viento-3039085.html
 - Italy Nintendo Waves: https://www.nintendo.com/it-it/Giochi/Giochi-per-Nintendo-Switch-2/Pokemon-Onda-3039100.html
