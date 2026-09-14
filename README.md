@@ -38,3 +38,29 @@ ROM images and redistributed ROM binaries are **not included**. The repository i
 - [ ] Begin source reconstruction
 - [ ] Document assets, scripts, and formats
 - [ ] Add verification and reproducibility workflow
+
+## 📚 Documentation
+
+| Document | Purpose |
+| --- | --- |
+| [Project status](docs/PROJECT_STATUS.md) | Current stage, coverage, validation level, and next milestones |
+| [Roadmap](docs/ROADMAP.md) | Recommended decompilation phases and long-term progression |
+| [Version coverage](docs/VERSIONS.md) | Verified regions, languages, revisions, updates, builds, and hashes |
+| [Research guide](docs/RESEARCH_GUIDE.md) | Evidence, confidence, and research-recording workflow |
+| [Verification guide](docs/VERIFICATION.md) | Standards for Unverified, Observed, Reproduced, and Matched results |
+| [Repository structure](docs/REPOSITORY_STRUCTURE.md) | Intended long-term source, data, asset, tooling, and manifest layout |
+| [Documentation hub](docs/README.md) | Entry point for format, executable, script, asset, version, and verification notes |
+
+## 🧱 Repository structure
+
+Directories such as `src/`, `include/`, `data/`, `assets/`, `tools/`, `tests/`, and `manifests/` should be added only when verified target information or real project material exists. The final layout must follow the verified target architecture rather than a structure copied from another generation.
+
+See [Repository Structure](docs/REPOSITORY_STRUCTURE.md) for the full organization policy.
+
+## 🔬 Research and verification
+
+Do not assume a platform, executable format, engine, build, region, or revision before it is authoritatively identified. Target-specific findings should clearly separate hypotheses from observed, reproduced, or matched results and should be recorded with supporting evidence.
+
+## 🤝 Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution rules, evidence expectations, commit guidance, and pull-request requirements.
