@@ -1,0 +1,106 @@
+name: Resolve Korean PNG census errors
+
+on:
+  push:
+    paths:
+      - '.github/workflows/resolve-kr-png-census-errors.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Retry failed Korean PNG downloads
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib, json, os, time
+          from pathlib import Path
+          from urllib.parse import urlparse, unquote
+          from urllib.request import Request, urlopen
+
+          M=Path('manifests/kr-public-png-census.json')
+          OUT=Path('assets/public/kr/site')
+          data=json.loads(M.read_text(encoding='utf-8'))
+          failed=[e for e in data.get('entries',[]) if e.get('status')=='download-error']
+
+          hash_to_path={}
+          for f in Path('assets').rglob('*.png'):
+              try: hash_to_path.setdefault(hashlib.sha256(f.read_bytes()).hexdigest(),f.as_posix())
+              except OSError: pass
+
+          def fetch_png(url):
+              last=None
+              for attempt in range(4):
+                  try:
+                      req=Request(url,headers={
+                          'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/152 Safari/537.36',
+                          'Accept':'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+                          'Referer':'https://pokemonkorea.co.kr/winds_waves',
+                          'Accept-Language':'ko-KR,ko;q=0.9,en;q=0.8'
+                      })
+                      with urlopen(req,timeout=12) as r:
+                          b=r.read(); final=r.geturl()
+                      if not b.startswith(b'\x89PNG\r\n\x1a\n'):
+                          raise ValueError('invalid PNG signature')
+                      return b,final,None
+                  except Exception as e:
+                      last=repr(e); time.sleep(1+attempt)
+              return None,None,last
+
+          new_files=[]; resolved=0
+          for e in failed:
+              b,final,err=fetch_png(e['source_url'])
+              e['retry_date']='2026-09-15'
+              if b is None:
+                  e['resolution_status']='unresolved-after-retry'
+                  e['retry_error']=err
+                  continue
+              h=hashlib.sha256(b).hexdigest(); existing=hash_to_path.get(h)
+              if existing:
+                  path=existing; dedup=True
+              else:
+                  p=urlparse(final or e['source_url']); host=p.netloc.lower().replace(':','_')
+                  rel=unquote(p.path).lstrip('/') or 'index.png'
+                  rel=os.path.normpath(rel).replace('\\','/')
+                  if rel=='..' or rel.startswith('../'): rel=Path(rel).name
+                  dest=OUT/host/rel; dest.parent.mkdir(parents=True,exist_ok=True); dest.write_bytes(b)
+                  path=dest.as_posix(); hash_to_path[h]=path; new_files.append(path); dedup=False
+              e.update({'status':'verified-png-resolved','resolution_status':'resolved','final_url':final,'repository_path':path,'sha256':h,'size':len(b),'deduplicated_to_existing':dedup})
+              e.pop('error',None); e.pop('retry_error',None); resolved+=1
+
+          data['verified_png_count']=sum(1 for e in data['entries'] if e.get('status') in {'verified-png','verified-png-resolved'})
+          data['download_error_count']=sum(1 for e in data['entries'] if e.get('status')=='download-error')
+          data['new_unique_png_count']=sum(1 for e in data['entries'] if e.get('status') in {'verified-png','verified-png-resolved'} and e.get('deduplicated_to_existing') is False)
+          data['deduplicated_existing_count']=sum(1 for e in data['entries'] if e.get('status') in {'verified-png','verified-png-resolved'} and e.get('deduplicated_to_existing') is True)
+          data['error_resolution']={'date':'2026-09-15','initial_failed_count':len(failed),'resolved_count':resolved,'remaining_failed_count':data['download_error_count']}
+          M.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          Path('/tmp/kr_resolved_new_files.txt').write_text('\n'.join(new_files)+('\n' if new_files else ''),encoding='utf-8')
+          print(json.dumps(data['error_resolution'],indent=2))
+          for e in data['entries']:
+              if e.get('status')=='download-error': print('REMAINING',e['source_url'],e.get('retry_error'))
+          PY
+
+      - name: Commit resolved PNG first, then manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          mapfile -t files < /tmp/kr_resolved_new_files.txt
+          if ((${#files[@]}>0)); then
+            git add -- "${files[@]}"
+            git commit -m 'Add resolved Korean official PNG'
+          fi
+          git add manifests/kr-public-png-census.json
+          if ! git diff --cached --quiet; then git commit -m 'Resolve Korean PNG census errors'; fi
+          git push
