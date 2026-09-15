@@ -1,0 +1,3490 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-09-15",
+  "region": "KR",
+  "baseline_relation": "Compared against the Japanese canonical asset inventory by SHA-256.",
+  "root_url": "https://pokemonkorea.co.kr/winds_waves",
+  "scope": "Official Pokémon Korea Winds/Waves pages reachable from seeded and discovered same-site links plus linked CSS/JS PNG references.",
+  "limits": {
+    "max_html_pages": 200,
+    "max_text_resources": 300
+  },
+  "html_pages_crawled": 10,
+  "text_resources_scanned": 50,
+  "png_urls_discovered": 192,
+  "verified_png_count": 191,
+  "download_error_count": 1,
+  "new_unique_png_count": 187,
+  "deduplicated_existing_count": 4,
+  "entries": [
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-21-58-58165-1772202118.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-21-58-58165-1772202118.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves",
+        "https://pokemonkorea.co.kr/winds_waves/menu724",
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4176&stype1=&stype2=",
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4177&stype1=&stype2=",
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4178&stype1=&stype2=",
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4179&stype1=&stype2=",
+        "https://pokemonkorea.co.kr/winds_waves/menu724?stype1=&stype2=",
+        "https://pokemonkorea.co.kr/winds_waves/menu725",
+        "https://pokemonkorea.co.kr/winds_waves/menu725?mode=view&number=4180",
+        "https://pokemonkorea.co.kr/winds_waves/menu725?mode=view&number=4181"
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-21-58-58165-1772202118.png",
+      "sha256": "8d1faaf675b2a27147698113be7766c48956effb7184606a545c474147de555f",
+      "size": 12273,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-22-43-33332-1772202163.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-22-43-33332-1772202163.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves"
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-22-43-33332-1772202163.png",
+      "sha256": "d6d7cecf1e836c885b8fd030770066e67f5d2575d6bccf5ca8ed95f09edd2906",
+      "size": 1249988,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-22-46-26670-1772202166.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-22-46-26670-1772202166.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves"
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-22-46-26670-1772202166.png",
+      "sha256": "e6d1b965896c61ef6b98dc2b78d969497c112af4f696b4ba6f84426ad65fdb6d",
+      "size": 634440,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-24-48-97468-1772202288.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-24-48-97468-1772202288.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves"
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-24-48-97468-1772202288.png",
+      "sha256": "399051397b01f0c8b53a7e038e396a99176023f9a63755e170c2fe07089b450b",
+      "size": 875877,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-25-20-87247-1772202320.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-25-20-87247-1772202320.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves"
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-25-20-87247-1772202320.png",
+      "sha256": "bccf3ce7c5a93b93932441eec1c2c41e9ff05ef1d0390baa8f89e1e9e3b06b8b",
+      "size": 1371590,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-25-31-39481-1772202331.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-25-31-39481-1772202331.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves"
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-25-31-39481-1772202331.png",
+      "sha256": "d95f5416b2a93839221686c4deeda1f3951238d3ab726bdb216678f44e6c806f",
+      "size": 1166442,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-25-43-39527-1772202343.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-25-43-39527-1772202343.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves"
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-25-43-39527-1772202343.png",
+      "sha256": "659d175587aa98a195342087d65a7c1079b6c1109f0faea5db91ccf91d19917b",
+      "size": 1419382,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-26-01-43653-1772202361.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-26-01-43653-1772202361.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves"
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-26-01-43653-1772202361.png",
+      "sha256": "d3b80487be3bd1783a00edf3ad03dff0b6e2ea9810ae134e0d935bea59fb56a1",
+      "size": 1206247,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-26-26-99047-1772202386.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-26-26-99047-1772202386.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves"
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-26-26-99047-1772202386.png",
+      "sha256": "291f1ebc0cc748c550cdb460bb87b7293e3d8c5c6bfe89c01360697fb0a8094b",
+      "size": 998645,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-28-59-35940-1772202539.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-28-59-35940-1772202539.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves"
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-28-59-35940-1772202539.png",
+      "sha256": "f041db04be81f08da92412db787f2b140f9ab78d8e6ec0a498891d051bf64a59",
+      "size": 175914,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-36-32-11654-1772202992.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-36-32-11654-1772202992.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves"
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-36-32-11654-1772202992.png",
+      "sha256": "cd724f0ccc96d63d68b55a8a7de06f11829e40be2ad0fc95603a42e877a4fbe5",
+      "size": 380889,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-38-16-28318-1772203096.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-38-16-28318-1772203096.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves"
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-38-16-28318-1772203096.png",
+      "sha256": "e800a1c5bc8726934ed3d8df23e87c4b3cd42e31f1fb5b71c882c95d18b42436",
+      "size": 799313,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-39-19-51078-1772203159.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-39-19-51078-1772203159.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves/menu724",
+        "https://pokemonkorea.co.kr/winds_waves/menu724?stype1=&stype2="
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-39-19-51078-1772203159.png",
+      "sha256": "165ac4857b48ec869f9df9478309826623db4405663f5b558d958942b0424123",
+      "size": 71260,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-39-34-16799-1772203174.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-39-34-16799-1772203174.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4176&stype1=&stype2="
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-39-34-16799-1772203174.png",
+      "sha256": "5f25d22e798c3559dab88b5f4a662701be86aaadb7e1fce17b63f54112315b3d",
+      "size": 146281,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-39-53-45872-1772203193.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-39-53-45872-1772203193.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4176&stype1=&stype2="
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-39-53-45872-1772203193.png",
+      "sha256": "9b31dffeab52dd89a4cdc00cf68067a66d8974357f0b359fb6795d4d87213bbf",
+      "size": 2493428,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-40-26-17004-1772203226.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-40-26-17004-1772203226.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4176&stype1=&stype2="
+      ],
+      "repository_path": "assets/public/jp/site/images/image_106.png",
+      "sha256": "f7f23837b05a7733a4fdddf72b34321d46bedee53f050ec287a044a63b007bb2",
+      "size": 2682997,
+      "deduplicated_to_existing": true,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-41-29-84733-1772203289.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-41-29-84733-1772203289.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves/menu724",
+        "https://pokemonkorea.co.kr/winds_waves/menu724?stype1=&stype2="
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-41-29-84733-1772203289.png",
+      "sha256": "4cae37c7d59a5950b1c69b774dad255118f2af0451459fd75bfa4a621cc7703c",
+      "size": 77437,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-41-45-41044-1772203305.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-41-45-41044-1772203305.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4177&stype1=&stype2="
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-41-45-41044-1772203305.png",
+      "sha256": "833b430d1b0d75ce77ddcaca0874a869831f450bf87e3b18904493d17da1d94d",
+      "size": 154536,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-42-02-87375-1772203322.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-42-02-87375-1772203322.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4177&stype1=&stype2="
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-42-02-87375-1772203322.png",
+      "sha256": "13b22aec9af5585ac9296f18de42b964168bd6704912da25a8d4291cea2c5e16",
+      "size": 1668078,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-43-01-38223-1772203381.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-43-01-38223-1772203381.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4177&stype1=&stype2="
+      ],
+      "repository_path": "assets/public/jp/site/images/image_108.png",
+      "sha256": "c1a494bf3191ae68470ae5491cfc3a87700d8a2c5aef959cc33b10f7c0cae2a7",
+      "size": 2034966,
+      "deduplicated_to_existing": true,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-43-52-14595-1772203432.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-43-52-14595-1772203432.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves/menu724",
+        "https://pokemonkorea.co.kr/winds_waves/menu724?stype1=&stype2="
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-43-52-14595-1772203432.png",
+      "sha256": "79fa6d34f55199c9b5198ddde7215fa850fbd48c96ee2f3002257c52359927a1",
+      "size": 74891,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-44-07-95182-1772203447.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-44-07-95182-1772203447.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4178&stype1=&stype2="
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-44-07-95182-1772203447.png",
+      "sha256": "fe3ed949d24df35fcf40f26aa971cc69c7cfc93b09f5049c791495af0b9f6247",
+      "size": 149979,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-44-25-29607-1772203465.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-44-25-29607-1772203465.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4178&stype1=&stype2="
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-44-25-29607-1772203465.png",
+      "sha256": "f801da4d145fb2312cb6274555ad065b18ac5d3e1fd2b452c5c3a17f4d348e74",
+      "size": 2237464,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-45-02-45192-1772203502.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-45-02-45192-1772203502.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4178&stype1=&stype2="
+      ],
+      "repository_path": "assets/public/jp/site/images/image_110.png",
+      "sha256": "7048cee09e38952cb32ca62532f2cfc54a1b5b68fa8af39278ff515e3a3a8648",
+      "size": 2545935,
+      "deduplicated_to_existing": true,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-46-11-72732-1772203571.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-46-11-72732-1772203571.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves/menu724",
+        "https://pokemonkorea.co.kr/winds_waves/menu724?stype1=&stype2="
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-46-11-72732-1772203571.png",
+      "sha256": "cdc86f305bbd31751d4901381f28e5d8ff8b3aac821e22568cb87e0a71fc4ec3",
+      "size": 120807,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-46-26-97044-1772203586.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-46-26-97044-1772203586.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4179&stype1=&stype2="
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-46-26-97044-1772203586.png",
+      "sha256": "198850d68d81a105275e3c51039c5908083b347ec290b0641270fb0fd7f4873e",
+      "size": 211664,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-46-55-64579-1772203615.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-46-55-64579-1772203615.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4179&stype1=&stype2="
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-46-55-64579-1772203615.png",
+      "sha256": "9893953e0a1c22235d9f5aa6ef1f30d673540886057bf96abaeb601b99c0cc2a",
+      "size": 2050574,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-53-12-54543-1772203992.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-53-12-54543-1772203992.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves"
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-53-12-54543-1772203992.png",
+      "sha256": "bc47bcd70ff3f8da4043a5d7b5a050ab897ebb19a226796844ae868862c27518",
+      "size": 137881,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-54-26-89693-1772204066.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-54-26-89693-1772204066.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves"
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-54-26-89693-1772204066.png",
+      "sha256": "72eb71668db85305223c3d26b3a6a2967025172d520f5ad31806234d6c0e12c8",
+      "size": 2043065,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-56-55-39729-1772204215.png",
+      "final_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-56-55-39729-1772204215.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves/menu725?mode=view&number=4181"
+      ],
+      "repository_path": "assets/public/kr/site/data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-53-12-54543-1772203992.png",
+      "sha256": "bc47bcd70ff3f8da4043a5d7b5a050ab897ebb19a226796844ae868862c27518",
+      "size": 137881,
+      "deduplicated_to_existing": true,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/a-store.png",
+      "final_url": "https://pokemonkorea.co.kr/img/a-store.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/a-store.png",
+      "sha256": "7ad662c0c5e6cd389badb68a166b60587b0e619ccf7c0f85e10223f09da9efc8",
+      "size": 5991,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/ani/btn_btm.png",
+      "final_url": "https://pokemonkorea.co.kr/img/ani/btn_btm.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/ani/btn_btm.png",
+      "sha256": "eccd91b6a8ab988d485b1e71bbb62fafea90f1213cf6a20e109b5974e0f4402a",
+      "size": 1029,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/ani/btn_btm_bk.png",
+      "final_url": "https://pokemonkorea.co.kr/img/ani/btn_btm_bk.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/ani/btn_btm_bk.png",
+      "sha256": "87f790d964cfc1747bc56f302ab14eef1244e7ab4e8ab2dbec1654bc5fd49d34",
+      "size": 991,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/badge_tri_gradient.png",
+      "final_url": "https://pokemonkorea.co.kr/img/badge_tri_gradient.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/badge_tri_gradient.png",
+      "sha256": "3c7b4be0adecfcb58a0882fd699ecbb7317b535622cace2b939753b05f0e1e49",
+      "size": 4982,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/book/btn_top.png",
+      "final_url": "https://pokemonkorea.co.kr/img/book/btn_top.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/book/btn_top.png",
+      "sha256": "c2d80c91dfaa7b35e93b932ed261618314f3df817d067cc3ed7c5cb24b29a98a",
+      "size": 1362,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/book/content_top.png",
+      "final_url": "https://pokemonkorea.co.kr/img/book/content_top.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/book/content_top.png",
+      "sha256": "953be0b0f31f172e020229b214bd1cb711a30819a3b17a336705d9ffd386c65c",
+      "size": 2321,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/book/content_top_m.png",
+      "final_url": "https://pokemonkorea.co.kr/img/book/content_top_m.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/book/content_top_m.png",
+      "sha256": "bd6e0aa39e2ea7a1bf403698909b544cd67b734a0e4cc2b7aab53a5ebed49d69",
+      "size": 1771,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/book/content_top_m2.png",
+      "final_url": "https://pokemonkorea.co.kr/img/book/content_top_m2.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/book/content_top_m2.png",
+      "sha256": "dda19af75439d7111109d299577a1ba3c241c5f6432156fd93512cd8290c3601",
+      "size": 1105,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/book/list_top.png",
+      "final_url": "https://pokemonkorea.co.kr/img/book/list_top.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/book/list_top.png",
+      "sha256": "92d0bd570cbcf4c3f458abe429846d04160b68e12a2a0f3193b723867d33fe04",
+      "size": 1483,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/book/list_top_m.png",
+      "final_url": "https://pokemonkorea.co.kr/img/book/list_top_m.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/book/list_top_m.png",
+      "sha256": "a5d09b97cbe3ad485f5f8628ec1e85a9f5383c49a144cac1930d694b7378b97d",
+      "size": 1139,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/book/list_top_m2.png",
+      "final_url": "https://pokemonkorea.co.kr/img/book/list_top_m2.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/book/list_top_m2.png",
+      "sha256": "88aaf4e0f57cb5e868e9350d71276598b9118d51178bf6e8acc3b0be0ff9dee9",
+      "size": 1003,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/btn_top.png",
+      "final_url": "https://pokemonkorea.co.kr/img/btn_top.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/btn_top.png",
+      "sha256": "fafd41e290fad6c8fd14dbd40da1d78577a36ba3edf43d352026abb991bfd29b",
+      "size": 943,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/close.png",
+      "final_url": "https://pokemonkorea.co.kr/img/close.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/close.png",
+      "sha256": "182d3d69944315fb3e3651b55341b6b1aae63d54b16eabb9ebc6b43e9c9605fe",
+      "size": 1421,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/error_404.png",
+      "final_url": "https://pokemonkorea.co.kr/img/error_404.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/error_404.png",
+      "sha256": "c3f259c0c6261084220e08f640069ec9739ed6eb58b1d8dafd6268cab88bf5e8",
+      "size": 31862,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/game/gift_.png",
+      "final_url": "https://pokemonkorea.co.kr/img/game/gift_.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/game/gift_.png",
+      "sha256": "f8c7736bfee67d0a88e29fcfba4364467c5300a94d8e01d0433c712c61c89639",
+      "size": 30199,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/game/visual_btm.png",
+      "final_url": "https://pokemonkorea.co.kr/img/game/visual_btm.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/game/visual_btm.png",
+      "sha256": "c758b25ed6cfc2a8ef6149a889342fd832a0ed6ca682068c79f0e5763d62b5f1",
+      "size": 230,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/game/visual_btm_bk.png",
+      "final_url": "https://pokemonkorea.co.kr/img/game/visual_btm_bk.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/game/visual_btm_bk.png",
+      "sha256": "ad63bf75e57be926f17469473e598017a16667d4850c46cb2361eeb1989f2fef",
+      "size": 1059,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/btn_cls.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/btn_cls.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/btn_cls.png",
+      "sha256": "7f7ed7a634385a9688aedd719125f41129cbd4f8c4f9601cec73be3b320512a9",
+      "size": 1076,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/btn_icon.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/btn_icon.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/btn_icon.png",
+      "sha256": "e44be09810ff34461675dc0b651cd621580a66c986ab717cf5e53222fab41686",
+      "size": 180,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/btn_icon2.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/btn_icon2.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/btn_icon2.png",
+      "sha256": "bc67e1a0dbe533781bfa52d5af695b6d655bff3e3dd336dda29f6808989bfe98",
+      "size": 177,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/btn_icon_m.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/btn_icon_m.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/btn_icon_m.png",
+      "sha256": "3baabc24fac3a584cacea9c5ef7e43dbffebcdaa9b45e288e4c3267ddde74cb8",
+      "size": 197,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/btn_prev.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/btn_prev.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/btn_prev.png",
+      "sha256": "22e8a222f3a95cba0087841066d36a11158e0401a65ebda920185524b2293f16",
+      "size": 2547,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/collap.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/collap.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/collap.png",
+      "sha256": "b49cd3a0b51cc33b4d0a63f2a380946ffad01188beb85c467d9df1c4a7a4cc3e",
+      "size": 219,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/collap2.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/collap2.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/collap2.png",
+      "sha256": "16a3c1a19bb0d7cfb58f55e995ecea509ac0216f4192429c977391a3994e1ba2",
+      "size": 654,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/collap2_active.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/collap2_active.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/collap2_active.png",
+      "sha256": "9fb5dcb5dcc5cb5ae6d74d78c30cb4932f68775a6383fe27272d635bcb2a22b5",
+      "size": 597,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/collap_off.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/collap_off.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/collap_off.png",
+      "sha256": "a6069d5da909ef68d108c03758bc2d13748e950a4318364b75631d5a1cb31b66",
+      "size": 244,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/go.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/go.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/go.png",
+      "sha256": "0fccec06f0fabe6843f3ce29ca90399df64a2ca6727db4ca4ee161fff7449b1a",
+      "size": 227,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/go_muted.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/go_muted.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/go_muted.png",
+      "sha256": "e90a8a10d66abc15a54d11411e807b8bf585829d086e6a4e8c89a171e94b64b5",
+      "size": 239,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_ani.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_ani.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_ani.png",
+      "sha256": "56a00876d169d9870cf17a990d17063f5da6e3b2dd555e0555c163923fdfe46a",
+      "size": 1376,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_ani2.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_ani2.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_ani2.png",
+      "sha256": "72e863a20c1998e6ac1f830b2bd1c8746f3c68ebd5be83397ae467c130e3d93c",
+      "size": 1391,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_ani2_wh.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_ani2_wh.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_ani2_wh.png",
+      "sha256": "f0214608b54aa90f3f764c029dd7c216ad145c9f99554e70b0de3dcdfb335e15",
+      "size": 1364,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_ani_m.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_ani_m.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_ani_m.png",
+      "sha256": "18f6c6c9252703794c3977a4dafebbc4566a5ee6c2f6d329911f7e123173b77a",
+      "size": 1792,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_ani_w.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_ani_w.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_ani_w.png",
+      "sha256": "c0c5be32e9ef35ca6a467aeb50eb39bc6d3ad320b3f0a19dd7e6741f2e5ba8a7",
+      "size": 1374,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_ball.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_ball.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_ball.png",
+      "sha256": "bb14a5e767612401b78368f42a2aab0843550c62ff60273b1467b5e302747caa",
+      "size": 1929,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_ball_c.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_ball_c.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_ball_c.png",
+      "sha256": "d011c897301cf02c427db5b187e6c783da5a635b4feee3df0b7a3d095c449837",
+      "size": 1562,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_ball_w.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_ball_w.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_ball_w.png",
+      "sha256": "16b2e287dce9ff5537a8515834ef3993e928951942f90f96c4bbd0809d84115a",
+      "size": 1426,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_btm_share.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_btm_share.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_btm_share.png",
+      "sha256": "a26d07fc120117b4a7435a0538de6aae566b2c62cb09704af5bf64dbf5b6b266",
+      "size": 1254,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_btn_line.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_btn_line.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_btn_line.png",
+      "sha256": "a712a4f578fff0edfcf5fcf4986f0c458131cb08b99c4af187ddfc9799262d2c",
+      "size": 1374,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_cal.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_cal.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_cal.png",
+      "sha256": "9fb397a89a921f876da87ee0ce4dca26897227296cc1c392fc59516aa552dd9a",
+      "size": 212,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_card.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_card.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_card.png",
+      "sha256": "9f64453a759ae92fbae43a0baec5c1d09ac76a7ac7d4be7c24b16bced09ceec6",
+      "size": 1503,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_card2.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_card2.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_card2.png",
+      "sha256": "fd471ceb4ef15f0681b2f96d7eae5c944402c835d460cc031eefe6e5a6ff37d9",
+      "size": 1350,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_card2_wh.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_card2_wh.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_card2_wh.png",
+      "sha256": "061e3dc1cfe391fef7c5872e9b8701b7676774e485bc6975998984814eb0c193",
+      "size": 1343,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_card_m.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_card_m.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_card_m.png",
+      "sha256": "5eb4aba335a12f74cc7b17600ee6de391796906ee3f9152505b3434e341208ed",
+      "size": 2149,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_card_w.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_card_w.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_card_w.png",
+      "sha256": "864539035a4ad38f6adf1b766544c65f96215a7759713f4a7f3a6228f200799c",
+      "size": 1442,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_char.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_char.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_char.png",
+      "sha256": "b4736de1280af216ade6d35f61f72769b429b2e5711dfd0a400761aacb90fbb1",
+      "size": 607,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_check_off.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_check_off.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_check_off.png",
+      "sha256": "671d2d8d0dc9b39355d90124e918a3ff3d9ddc31a4c9fa3eac4977563018263e",
+      "size": 539,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_check_on.png",
+      "sha256": "260bb32b071b75474a74d4696c27456bcc8c1d3dbcbb869defaa8fb37664d960",
+      "size": 557,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on10.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on10.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_check_on10.png",
+      "sha256": "3d3efc14d7307305f8e7b0ab9a5493a1e0ba964de66009f241fdaa9cbdc66f8e",
+      "size": 612,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on11.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on11.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_check_on11.png",
+      "sha256": "16085896b547db6e87f18d47a117726471d2912fac5c01248d2ccb9f8a3e6062",
+      "size": 1381,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on12.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on12.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_check_on12.png",
+      "sha256": "bb6966f56db6ee8d474051dea468f6881b0d6f5549d39e1d5e66a62f736bbb89",
+      "size": 1381,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on13.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on13.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_check_on13.png",
+      "sha256": "b9d52dc4a9086ee826fdb637f85dfe66ee9f330d5115d236bfdb2c3b8d3c0b6b",
+      "size": 1380,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on14.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on14.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_check_on14.png",
+      "sha256": "752ee0761c0a1d1058a753695f9788cd0f241159179659f561b7c7fdbdcd2fa3",
+      "size": 1550,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on15.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on15.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_check_on15.png",
+      "sha256": "add338b044d8efbe5c85c8a9fdacff38b0482e674b41b5bbdb60c06efc4ee567",
+      "size": 1545,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on16.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on16.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_check_on16.png",
+      "sha256": "d2551c9c55b991b0973bded39d3dbdacb9ea38cc7ccb4c27e9107ac18d8ca126",
+      "size": 660,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on17.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on17.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_check_on17.png",
+      "sha256": "ff637f350d7c7d4eb45ca1f4572ab8629a55b9e2572f9b58d77ac1d2950b33b7",
+      "size": 661,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on3.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on3.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_check_on3.png",
+      "sha256": "a4a5b528415e9767c29816b46f36cad5789c808478d0c7c4e6f34f5c337b353e",
+      "size": 600,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on4.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on4.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_check_on4.png",
+      "sha256": "f7464f9bec7ddd9872805fa437456b8603efb9088a97a6aaeba358503ccd0920",
+      "size": 600,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on5.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on5.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_check_on5.png",
+      "sha256": "58bdd0215edaf0845d4d0a446c7868b6fa57f2b89999f705ed59e52478fa3d48",
+      "size": 588,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on6.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on6.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_check_on6.png",
+      "sha256": "3e0de3af948de91cf3a44f7038ac9b0da0f671bceb8be870dfdb448c04393c84",
+      "size": 606,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on7.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on7.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_check_on7.png",
+      "sha256": "e4a694e7e9c38e12f0512367ef83ba6761fe8f5b379b1d15d913cf6a320b2897",
+      "size": 574,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on8.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on8.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_check_on8.png",
+      "sha256": "d756f1fd45a0bb1d9aa61ae6ec0a555d8a1164df1fb8ff8d0bf617f9d2381de8",
+      "size": 596,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on9.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_check_on9.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_check_on9.png",
+      "sha256": "1db7ef1d17a49b1ffe5e5ae4249b365910a915cf643226ddf127486d45dea8ea",
+      "size": 572,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_close.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_close.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_close.png",
+      "sha256": "8cf5141237f8d35291f0322a0fd58c322e8f157f014a6472ecb426a153cd1889",
+      "size": 487,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_close2.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_close2.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_close2.png",
+      "sha256": "3427248a9da3c80dc2d03a93aa159c455bd979fae4e25456910f123709269344",
+      "size": 1503,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_down.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_down.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_down.png",
+      "sha256": "2e2a2a5d875bb7d5ac4ca5f2fa0ab5805f0b8848381108f04cb70d983a78d657",
+      "size": 136,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_dropdown.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_dropdown.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_dropdown.png",
+      "sha256": "9b9c324ec40a64445b0289b72d3b33b7901796b78860368ee0e311dc1b0a1ba1",
+      "size": 212,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_face.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_face.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_face.png",
+      "sha256": "072e9030bc0089afaa0cbbc77218a7fe8251aa9e812e1ebd64572252b67b6631",
+      "size": 213,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_faceb.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_faceb.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_faceb.png",
+      "sha256": "bb6f970989334b2224d266d92d42f5ba56d752ac3e55ac34c99696c43c386b51",
+      "size": 1492,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_facebook.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_facebook.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_facebook.png",
+      "sha256": "6c28a2e1229d6f971e8f88bdd683d96f5b7e9daba33a01726d46e1213b618d48",
+      "size": 2537,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_game.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_game.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_game.png",
+      "sha256": "3a5f694c2c605e23e8be2e3bf0e06effb146a7771eb67fcd4378707013399b45",
+      "size": 1633,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_game_m.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_game_m.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_game_m.png",
+      "sha256": "3ed65a0afa07aae83105d2e752450a7ef64376c0aa8713ca1cf65ea793cdf70b",
+      "size": 2162,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_game_w.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_game_w.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_game_w.png",
+      "sha256": "11018d7f414c90f980b7060d906903e4ae28bd76ffa2719286ba3266a0e90a2f",
+      "size": 1523,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_go.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_go.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_go.png",
+      "sha256": "5f111fbdae983ba7381982e1a1bbd76f0d2c4ec62420a3d0fb8b7bcf855c6ad6",
+      "size": 192,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_go2.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_go2.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_go2.png",
+      "sha256": "cbea6700c05ceb550a493204d21747088fe8cadba1003f63be35aaf3e2a3fb90",
+      "size": 173,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_insta.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_insta.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_insta.png",
+      "sha256": "104588c43ce5b938f3ab591c9e8ce6dd8a88037b5cc6e61664374194ba1c4f5c",
+      "size": 3891,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_insta_wh.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_insta_wh.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_insta_wh.png",
+      "sha256": "ac9a77ba5487e923b21050cf1a542c965fb0f22c1de9196b7b339a657f629be2",
+      "size": 418,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_kakaos.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_kakaos.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_kakaos.png",
+      "sha256": "6f3dbcc8e40d6fd44c5725c24effb17109b426fe7c16c8dadc2be0095683aefe",
+      "size": 1358,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_list.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_list.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_list.png",
+      "sha256": "3313ac1db0c8e8406c47a57a7bb50bb1db7e366405dfaa19c358ed6bd72fded0",
+      "size": 140,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_login.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_login.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_login.png",
+      "sha256": "aee0fa8fbdd35ab9807aa998d59800a6290bbbb6b7147a16d3f21821306981ff",
+      "size": 1455,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_logout.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_logout.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_logout.png",
+      "sha256": "c87e17dabef77fd5170b94eecd13c833dbaa17344eb0da567994344ec6e4d7b0",
+      "size": 927,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_man.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_man.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_man.png",
+      "sha256": "5312ffb4ab251dc128f051bd4b327be9e11270627e8bb5849a4d6aabf40bdc1a",
+      "size": 592,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_more.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_more.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_more.png",
+      "sha256": "a62285533041e84b78fb1a72917856e8836ac7fb3e62531fd2634e6b02871e5a",
+      "size": 195,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_more2_lg.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_more2_lg.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_more2_lg.png",
+      "sha256": "110e40bc56bcbba0ffdabdfb467ceb8a2d13125077051f1b788279be4889ea0b",
+      "size": 417,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_more4.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_more4.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_more4.png",
+      "sha256": "9ed655796364a6d02776d782e92cc67a3163aba5665e1f806069c4646b3bb299",
+      "size": 112,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_more_m.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_more_m.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_more_m.png",
+      "sha256": "fb36d2407806f2b2027117946ad99df63d9aff0a78df1bf83cea27f7ab0ae410",
+      "size": 244,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_mypage.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_mypage.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_mypage.png",
+      "sha256": "c77d3a141859bd2b5857b778e8ee9ae1f155e655c9092639100a9c5d1249ebdc",
+      "size": 1244,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_news.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_news.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_news.png",
+      "sha256": "4a8cbe7a6dec917bc58ece2b272f851e1d207ceb42e116cd5109d0e8b31a9faf",
+      "size": 1306,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_news_m.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_news_m.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_news_m.png",
+      "sha256": "9ec3e1d03c7cf6c4fe59e5c1e54a4b3317ddf783480384b297003bc07d3dcd47",
+      "size": 1541,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_news_w.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_news_w.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_news_w.png",
+      "sha256": "8ab0f270cc284c506e45690d6d439c92e8079a807231c1246475cb995abfbaf5",
+      "size": 1357,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_next.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_next.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_next.png",
+      "sha256": "433dea54ab113121b6ee85a017cf99dfe23fd76c5f76fda3cdfb9cfa9a145fd7",
+      "size": 1132,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_plus.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_plus.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_plus.png",
+      "sha256": "be15d7d31d894e412d31dc5fbc903c542dd839c99a6d8c8584472f188b01659c",
+      "size": 719,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_plus_sm.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_plus_sm.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_plus_sm.png",
+      "sha256": "ec5301e293fd3d26371e24cad0817c65a12ed9323a8f95fe63a05e4e0264c8b4",
+      "size": 123,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_plus_wh.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_plus_wh.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_plus_wh.png",
+      "sha256": "0cb65382f6e7590893cdac906cfa0fe2f074e3b64a475a33e41dfc5f0e61f6cc",
+      "size": 713,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_poke_on.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_poke_on.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_poke_on.png",
+      "sha256": "ce6f8d8a53edb5a421e340ae9f122714b363db6df875edea393bffe53d53f1e4",
+      "size": 452,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_pokemon.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_pokemon.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_pokemon.png",
+      "sha256": "566e5834abc8107e1bb454a3b059a22d9e1f39c5f114b4392934d78583e2e7d3",
+      "size": 2230,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_prev.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_prev.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_prev.png",
+      "sha256": "2f1a190652dae5c5100dd967491fc23b9cdb8fc81b191149134c3e8299d17e65",
+      "size": 227,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_prev_book.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_prev_book.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_prev_book.png",
+      "sha256": "642b0b2c85fba4342fd500671a973e4ac71b41ac2c2956bca4dc46bf7042bea7",
+      "size": 1446,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_product.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_product.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_product.png",
+      "sha256": "d4e305be800f7f24850e9cd38c5c9df94500a3f644d4fb59c076ed5065cbe216",
+      "size": 1765,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_product_m.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_product_m.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_product_m.png",
+      "sha256": "946350501b4915c0d13ec3c7ca340e9dbc4990a8a597933a0096e3073db33884",
+      "size": 2214,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_product_wh.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_product_wh.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_product_wh.png",
+      "sha256": "2cdb4a21daafdff71476a089aff60a96669633585158e3aaa8e56a0a71dcecee",
+      "size": 1721,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_redball.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_redball.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_redball.png",
+      "sha256": "d005ef6e1ebb055a1904cffd87c823de0a879e92b9937d4ebb4dcf2a92360fd1",
+      "size": 1056,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_redball_wh.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_redball_wh.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_redball_wh.png",
+      "sha256": "1e89518ffb216f02427074b96a1f408b744c6476f0db01b72f10c3c06d97cb20",
+      "size": 1376,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_search.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_search.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_search.png",
+      "sha256": "911a748a004ad0b0653e74c1155ea3023e43a58d1f86cda084006e1167e9d272",
+      "size": 1777,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_shape.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_shape.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_shape.png",
+      "sha256": "1ce19e0dd19d96365eb736a42f672028600a63c19e4223a687a3763d6334f9f0",
+      "size": 418,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_share.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_share.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_share.png",
+      "sha256": "c2c1e6a7ab39e20fe9476afc6c887e28c38f82c35fa3ba2a750c4c386dd5eab2",
+      "size": 423,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_share2.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_share2.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_share2.png",
+      "sha256": "5d55e843b65e87c64307f080b1031ba6a19ee309aeeeee8c5c1d2431aeff2501",
+      "size": 433,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_tiktok.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_tiktok.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_tiktok.png",
+      "sha256": "789afaf04658afa98c3ebe5251b3fe86e874a30946de06b5eae1d979b5cdec80",
+      "size": 1259,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_twi.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_twi.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_twi.png",
+      "sha256": "e275d5032f4757cba400cf45c7a9d803d15494d23a3863ab113197244352764f",
+      "size": 344,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_twitter.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_twitter.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_twitter.png",
+      "sha256": "0882df539f927707055fa1a0fa9fada5e3bd29ecef1a168c318d14cc1fd02182",
+      "size": 2895,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_url.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_url.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_url.png",
+      "sha256": "dd7467ecc6e5cc6100a9146840fd293be5a26a213730a2d0748541bb22ee9db8",
+      "size": 2965,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_woman.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_woman.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_woman.png",
+      "sha256": "854754bed1b807d52ce361361cae3ac2bde535d8330c0bc13cf94c565b3c02a2",
+      "size": 511,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/icon_youtube.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/icon_youtube.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/icon_youtube.png",
+      "sha256": "f2533976ee3365653595a409acaa232470249bf20a7317ab67ff313815da56bf",
+      "size": 1707,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/select.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/select.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/select.png",
+      "sha256": "47caac5337cbd3651571c6c816b3ce6181a126dae3883832d1bfdbe039ff334f",
+      "size": 192,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/select_m.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/select_m.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/select_m.png",
+      "sha256": "ec5e1a630394a76e23b045ce408564414dfb56c126b5dd81b0f370c42270d434",
+      "size": 205,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/slider.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/slider.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/slider.png",
+      "sha256": "b6fea06fd24fd8938e7916c8527eaa13c352a54d6b7a0a627c1071307c1276e2",
+      "size": 697,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/icon/txt_deco.png",
+      "final_url": "https://pokemonkorea.co.kr/img/icon/txt_deco.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/icon/txt_deco.png",
+      "sha256": "bbb93d704e29e2e12dec95be2999e80397bb70e67197056ad0184675a0bdbe6e",
+      "size": 666,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/input_srch.png",
+      "final_url": "https://pokemonkorea.co.kr/img/input_srch.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/input_srch.png",
+      "sha256": "bdfa4a6cee4adab04b6bdb9e7c691a63975e2c0260fc431c73ab62661b3a7609",
+      "size": 1367,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/list_dash.png",
+      "final_url": "https://pokemonkorea.co.kr/img/list_dash.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/list_dash.png",
+      "sha256": "5cfaab77d204e8586fb28c7d72d504aadf007f20dc8cd1e9be69a418535ade63",
+      "size": 145,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/list_top.png",
+      "final_url": "https://pokemonkorea.co.kr/img/list_top.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/list_top.png",
+      "sha256": "6c8a8afe4d81c73901ccc6434ec5287f9fa00453c0e2d383d32671dbe54bb85a",
+      "size": 4244,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/list_top2.png",
+      "final_url": "https://pokemonkorea.co.kr/img/list_top2.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/list_top2.png",
+      "sha256": "c0d202838119058289f699659d4126a59ddebcfe500daf5534fd73a7f3780b6c",
+      "size": 5264,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/main/bg_btm_dark.png",
+      "final_url": "https://pokemonkorea.co.kr/img/main/bg_btm_dark.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/main/bg_btm_dark.png",
+      "sha256": "f98060bcdb339ba0735964b3205a4822e53a13d89110133dd68ca4ee5d6b4b65",
+      "size": 3606,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/main/bg_btm_dark2.png",
+      "final_url": "https://pokemonkorea.co.kr/img/main/bg_btm_dark2.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/main/bg_btm_dark2.png",
+      "sha256": "ebd28e77dd4fe1d24992cb1090f6a5cbc35ce57de6fd8a23a05d8fee7621ddd1",
+      "size": 1350,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/main/bg_btm_dark3.png",
+      "final_url": "https://pokemonkorea.co.kr/img/main/bg_btm_dark3.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/main/bg_btm_dark3.png",
+      "sha256": "5a8673379e7ca1affd7a4401fc00eeeb8bcbed8da6385d45c423e1ef0290c031",
+      "size": 1036,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/main/bg_btm_dark_m.png",
+      "final_url": "https://pokemonkorea.co.kr/img/main/bg_btm_dark_m.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/main/bg_btm_dark_m.png",
+      "sha256": "9b97cc8a99cef30e35733cd89299ce615209b02c5c52fc32277ede90fc3bd564",
+      "size": 1945,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/main/bg_top_dark.png",
+      "final_url": "https://pokemonkorea.co.kr/img/main/bg_top_dark.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/main/bg_top_dark.png",
+      "sha256": "2fd37b8e6bea21ff012daa031850507477db8665176be1d960819de1f33a9cf2",
+      "size": 2438,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/main/bg_top_dark_m.png",
+      "final_url": "https://pokemonkorea.co.kr/img/main/bg_top_dark_m.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/main/bg_top_dark_m.png",
+      "sha256": "42b62ce0d32147f8dde2af8c169f4d211d7af48d6045d5818649afaff132f381",
+      "size": 1930,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/main/bg_top_wh.png",
+      "final_url": "https://pokemonkorea.co.kr/img/main/bg_top_wh.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/main/bg_top_wh.png",
+      "sha256": "2783507e27edc1327a2a788127178bfaa77a0c3d6ab278283f10f27c1d4f3520",
+      "size": 4184,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/main/bg_top_wh_m.png",
+      "final_url": "https://pokemonkorea.co.kr/img/main/bg_top_wh_m.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/main/bg_top_wh_m.png",
+      "sha256": "c4f35735efd931810332ce3abe8c423c7b85c07f81e2c53b0afacb318cf6c702",
+      "size": 1897,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/main/card-line.png",
+      "final_url": "https://pokemonkorea.co.kr/img/main/card-line.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/main/card-line.png",
+      "sha256": "8d86dd288640eba3748eb3addf09ab6dc59729661b212682f22964b8d2b70339",
+      "size": 1472,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/main/card_line_m.png",
+      "final_url": "https://pokemonkorea.co.kr/img/main/card_line_m.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/main/card_line_m.png",
+      "sha256": "03c53e446fca2dfa361e00c36dc1b628edd4ec2985cb1f0bf0db547012ab3478",
+      "size": 2027,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/main/gradient_bg.png",
+      "final_url": "https://pokemonkorea.co.kr/img/main/gradient_bg.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/main/gradient_bg.png",
+      "sha256": "7a738d5b21c7e45cf1213becfaaa93d66750154560fe45b1e8679c76e9d846a1",
+      "size": 437471,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/main_logo.png",
+      "final_url": "https://pokemonkorea.co.kr/img/main_logo.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves",
+        "https://pokemonkorea.co.kr/winds_waves/menu724",
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4176&stype1=&stype2=",
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4177&stype1=&stype2=",
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4178&stype1=&stype2=",
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4179&stype1=&stype2=",
+        "https://pokemonkorea.co.kr/winds_waves/menu724?stype1=&stype2=",
+        "https://pokemonkorea.co.kr/winds_waves/menu725",
+        "https://pokemonkorea.co.kr/winds_waves/menu725?mode=view&number=4180",
+        "https://pokemonkorea.co.kr/winds_waves/menu725?mode=view&number=4181"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/main_logo.png",
+      "sha256": "1232f28da4efeb83d1b79a1806938b0841bbc607002fb7794dc2d0ecdf189f4d",
+      "size": 14708,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/main_micro/about_btm.png",
+      "final_url": "https://pokemonkorea.co.kr/img/main_micro/about_btm.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/main_micro/about_btm.png",
+      "sha256": "357211536b7277bc55b1a6ef2ff926c097aaabbcbdab00effc30ee8f4ca164bb",
+      "size": 1522,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/main_micro/about_btm2.png",
+      "final_url": "https://pokemonkorea.co.kr/img/main_micro/about_btm2.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/main_micro/about_btm2.png",
+      "sha256": "e8e36ca07f99ad21ccd1a1f4413634423b5a5ce31f104390efe053812367c279",
+      "size": 3785,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/main_micro/logo.png",
+      "final_url": "https://pokemonkorea.co.kr/img/main_micro/logo.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/main_micro/logo.png",
+      "sha256": "0f75fb825b02bd6e5c334400a4a0011a93ad1406400ba0b8496b2be184b620e8",
+      "size": 37702,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/micro/bg01.png",
+      "final_url": "https://pokemonkorea.co.kr/img/micro/bg01.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/micro/bg01.png",
+      "sha256": "66c2f2fce964914ecbac99b5070084399791431099879384523e753a41a891f0",
+      "size": 207988,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/mov/list_nav_bg.png",
+      "final_url": "https://pokemonkorea.co.kr/img/mov/list_nav_bg.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/mov/list_nav_bg.png",
+      "sha256": "081b8d5aa142c34a1ca0d0125c3c4d11366e7ff0ba8ca4bbe839d0660b43c516",
+      "size": 3027,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/product/list_nav_bg.png",
+      "final_url": "https://pokemonkorea.co.kr/img/product/list_nav_bg.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/product/list_nav_bg.png",
+      "sha256": "b71c9dddb885689cadd17cf82171948d23982c3274f128d3269f5f9ce461bedc",
+      "size": 278586,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/search.png",
+      "final_url": "https://pokemonkorea.co.kr/img/search.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/search.png",
+      "sha256": "1bc9bcb7979145e6d7ba3e42c8e5fd3931126e5876067a4bc32542ce3a271f5c",
+      "size": 930,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/search_dark.png",
+      "final_url": "https://pokemonkorea.co.kr/img/search_dark.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/search_dark.png",
+      "sha256": "b9f4fd245ccb6b498c647c2fafc924a136eb557db08da2064818af16d0929a5c",
+      "size": 1811,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/search_left.png",
+      "final_url": "https://pokemonkorea.co.kr/img/search_left.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/search_left.png",
+      "sha256": "334c6d27f119fb1dd429a565d1e81b24a463f8e0d2612cdb187710b2e4a791ee",
+      "size": 1030,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/search_left_dark.png",
+      "final_url": "https://pokemonkorea.co.kr/img/search_left_dark.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/search_left_dark.png",
+      "sha256": "4d4cca24c0a7d9aae84be390b2da753e485df695bcc0f629fb3c5e863f04d1e0",
+      "size": 1063,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/special/btn_top.png",
+      "final_url": "https://pokemonkorea.co.kr/img/special/btn_top.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024",
+        "https://pokemonkorea.co.kr/winds_waves"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/special/btn_top.png",
+      "sha256": "18fab7374a97b73c368f1e020547a751f6e35ec6ea054d2d1074553f9a9848be",
+      "size": 2284,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/special/h3_deco.png",
+      "final_url": "https://pokemonkorea.co.kr/img/special/h3_deco.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/special/h3_deco.png",
+      "sha256": "fadd609cc9630762e5547b21028334e00be13c9420ab9b51335e04517732781a",
+      "size": 4319,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/special/h3_top.png",
+      "final_url": "https://pokemonkorea.co.kr/img/special/h3_top.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/special/h3_top.png",
+      "sha256": "4a05eb36b2e2e328e676d6cc74d9315aea841ecc8bc3a1f933d0547cc638471d",
+      "size": 2523,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/special/icon_face.png",
+      "final_url": "https://pokemonkorea.co.kr/img/special/icon_face.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/special/icon_face.png",
+      "sha256": "ddb2bf97f957dd78021b160f5f4d56afc2ee6be2c284794f3f36d9dc5479b07c",
+      "size": 224,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/special/icon_insta.png",
+      "final_url": "https://pokemonkorea.co.kr/img/special/icon_insta.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/special/icon_insta.png",
+      "sha256": "4261bdfc9c7f77c9247bcbd904e36a58fa718dd386257d64db132afeb7edd241",
+      "size": 534,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/special/icon_twi.png",
+      "final_url": "https://pokemonkorea.co.kr/img/special/icon_twi.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/special/icon_twi.png",
+      "sha256": "8ae63d57b61c4766317ffae68c8e8f9490b2e511d97b718c60455baac46a7902",
+      "size": 411,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/sub_nav_btm.png",
+      "final_url": "https://pokemonkorea.co.kr/img/sub_nav_btm.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/sub_nav_btm.png",
+      "sha256": "3ff1eaf8c37872c1e2c72295acf4349a47c8bc7921919e83631a9d1523e1d0a6",
+      "size": 1043,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/sub_nav_btm_m.png",
+      "final_url": "https://pokemonkorea.co.kr/img/sub_nav_btm_m.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/sub_nav_btm_m.png",
+      "sha256": "eea85b3b8f5f2b67bd06e0c28233cc7fde2e7414977e6e51e3deaff75cb463cb",
+      "size": 1018,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/swiper_next.png",
+      "final_url": "https://pokemonkorea.co.kr/img/swiper_next.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/swiper_next.png",
+      "sha256": "84d6e9a803362b81be6ffa966498b9bf94baea4dd92f9574275da13dd746b52b",
+      "size": 1557,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/swiper_next_dark.png",
+      "final_url": "https://pokemonkorea.co.kr/img/swiper_next_dark.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/swiper_next_dark.png",
+      "sha256": "6f47758e3f4adbd4ec74046571d08350677e10cee6a5d0d5665be68052892411",
+      "size": 2801,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/swiper_next_dark_hover.png",
+      "final_url": "https://pokemonkorea.co.kr/img/swiper_next_dark_hover.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/swiper_next_dark_hover.png",
+      "sha256": "7607d0b8bc26d6dc4c20ec61ea53b1dd371f87c6eb1bf6a89cb0a31bcfacfc40",
+      "size": 2782,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/swiper_next_hover.png",
+      "final_url": "https://pokemonkorea.co.kr/img/swiper_next_hover.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/swiper_next_hover.png",
+      "sha256": "81c6c38e6602e4e0446314bba6903a0f1970b22e8b85c9f550614d813eb824a6",
+      "size": 1530,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/swiper_next_line.png",
+      "final_url": "https://pokemonkorea.co.kr/img/swiper_next_line.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/swiper_next_line.png",
+      "sha256": "841fa90a5cfb960d614d54d43d770a4be17bdcef5d6cd950210595dbc41908f8",
+      "size": 245,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/swiper_prev.png",
+      "final_url": "https://pokemonkorea.co.kr/img/swiper_prev.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/swiper_prev.png",
+      "sha256": "a0e0deebc0ce34d4e66cc8205f3402440f717167e2a4d1a8a9e1927637db2eb6",
+      "size": 1566,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/swiper_prev_dark.png",
+      "final_url": "https://pokemonkorea.co.kr/img/swiper_prev_dark.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/swiper_prev_dark.png",
+      "sha256": "e7dee615db91de8ff24a1df2b9b5c53cdc8312e79faaa58a084868156e9ef108",
+      "size": 2740,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/swiper_prev_dark_hover.png",
+      "final_url": "https://pokemonkorea.co.kr/img/swiper_prev_dark_hover.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/swiper_prev_dark_hover.png",
+      "sha256": "9365502d81de693d141e842e596d186f4184b288ffc0d4eda01c8b245a5a6de2",
+      "size": 2777,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/swiper_prev_hover.png",
+      "final_url": "https://pokemonkorea.co.kr/img/swiper_prev_hover.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/swiper_prev_hover.png",
+      "sha256": "0ca4110154baeb5606f51056d4c4a4c09bea20d0385fcb325f9631d50312cf0b",
+      "size": 1566,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/swiper_prev_line.png",
+      "final_url": "https://pokemonkorea.co.kr/img/swiper_prev_line.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/swiper_prev_line.png",
+      "sha256": "8f75a14d30fb9af2ea729e10f6f5a5988483775f3d2c059ba349833bb2f95201",
+      "size": 235,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/img/swiper_prev_line_lg.png",
+      "final_url": "https://pokemonkorea.co.kr/img/swiper_prev_line_lg.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435018",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435019",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435020",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435021",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435022",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435023",
+        "https://pokemonkorea.co.kr/css/common.css?v=1789435024"
+      ],
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/swiper_prev_line_lg.png",
+      "sha256": "b61eedaa6219cd86e009e7e6b4d59fa96d4e2e3c6b7b752d7408a5e1164fa528",
+      "size": 268,
+      "deduplicated_to_existing": false,
+      "status": "verified-png"
+    },
+    {
+      "source_url": "https://pokemonkorea.co.kr/winds_waves/img/special/btn_top.png",
+      "discovered_from": [
+        "https://pokemonkorea.co.kr/winds_waves/menu724",
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4176&stype1=&stype2=",
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4177&stype1=&stype2=",
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4178&stype1=&stype2=",
+        "https://pokemonkorea.co.kr/winds_waves/menu724?mode=view&number=4179&stype1=&stype2=",
+        "https://pokemonkorea.co.kr/winds_waves/menu724?stype1=&stype2=",
+        "https://pokemonkorea.co.kr/winds_waves/menu725",
+        "https://pokemonkorea.co.kr/winds_waves/menu725?mode=view&number=4180",
+        "https://pokemonkorea.co.kr/winds_waves/menu725?mode=view&number=4181"
+      ],
+      "status": "download-error",
+      "error": "<HTTPError 404: 'Not Found'>"
+    }
+  ],
+  "crawl_errors": [
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/popper.js",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://pokemonkorea.co.kr/1.14.7/umd/popper.min.js",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://pokemonkorea.co.kr/css/delivr.net/npm/xeicon@2.3.3/xeicon.min.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/animate.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://pokemonkorea.co.kr/3.7.2/animate.min.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/w.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/l.style.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/c.style.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/:w.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/t.js",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/:t.js",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/+t.js",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/n.js",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/:f.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/Popper.js",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/popper.js",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/Popper.js",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/Y.Modernizr.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/i.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/:l.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/S,P.css",
+      "stage": "resource",
+      "error": "<HTTPError 522: '<none>'>"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/C))*C,P.css",
+      "stage": "resource",
+      "error": "<HTTPError 522: '<none>'>"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/P.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/a.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/:a.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/l.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/wrapperEl.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/o.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/c.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/t.slides.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/p.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/r.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/e.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://www.google-analytics.com/window.JS",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://www.google-analytics.com/gtm.js",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    }
+  ],
+  "completion_note": "Current reachable Korean official surface census. Any download/crawl errors remain explicit; later page revisions require rerun."
+}
