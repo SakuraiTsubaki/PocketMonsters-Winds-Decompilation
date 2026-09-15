@@ -12,10 +12,10 @@
   "html_pages_crawled": 10,
   "text_resources_scanned": 50,
   "png_urls_discovered": 192,
-  "verified_png_count": 191,
-  "download_error_count": 1,
+  "verified_png_count": 192,
+  "download_error_count": 0,
   "new_unique_png_count": 187,
-  "deduplicated_existing_count": 4,
+  "deduplicated_existing_count": 5,
   "entries": [
     {
       "source_url": "https://data1.pokemonkorea.co.kr/newdata/2026/02/2026-02-27_23-21-58-58165-1772202118.png",
@@ -3305,11 +3305,18 @@
         "https://pokemonkorea.co.kr/winds_waves/menu725?mode=view&number=4180",
         "https://pokemonkorea.co.kr/winds_waves/menu725?mode=view&number=4181"
       ],
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>",
+      "status": "verified-png-resolved",
       "retry_date": "2026-09-15",
-      "resolution_status": "unresolved-after-retry",
-      "retry_error": "<HTTPError 404: 'Not Found'>"
+      "resolution_status": "resolved-rebased",
+      "final_resolution_attempts": [
+        "https://pokemonkorea.co.kr/img/special/btn_top.png"
+      ],
+      "resolved_url": "https://pokemonkorea.co.kr/img/special/btn_top.png",
+      "final_url": "https://pokemonkorea.co.kr/img/special/btn_top.png",
+      "repository_path": "assets/public/kr/site/pokemonkorea.co.kr/img/special/btn_top.png",
+      "sha256": "18fab7374a97b73c368f1e020547a751f6e35ec6ea054d2d1074553f9a9848be",
+      "size": 2284,
+      "deduplicated_to_existing": true
     }
   ],
   "crawl_errors": [
@@ -3495,5 +3502,13 @@
     "initial_failed_count": 1,
     "resolved_count": 0,
     "remaining_failed_count": 1
+  },
+  "non_reproduced_candidate_count": 0,
+  "final_resolution": {
+    "date": "2026-09-15",
+    "target_count": 1,
+    "resolved_count": 1,
+    "remaining_download_error_count": 0,
+    "non_reproduced_candidate_count": 0
   }
 }
