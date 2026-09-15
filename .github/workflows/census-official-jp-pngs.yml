@@ -9,236 +9,170 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: jp-official-png-census
+  cancel-in-progress: true
+
 jobs:
   census-png:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Crawl Japanese official site and download every discoverable PNG
+      - name: Crawl bounded Japanese official surface and import PNGs
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
-          import hashlib
-          import json
-          import os
-          import re
-          import time
+          import hashlib, json, os, re
           from collections import deque
+          from concurrent.futures import ThreadPoolExecutor, as_completed
           from html.parser import HTMLParser
           from pathlib import Path
-          from urllib.parse import urljoin, urlparse, urldefrag, unquote
+          from urllib.parse import urljoin, urlparse, unquote
           from urllib.request import Request, urlopen
 
-          ROOT = 'https://www.pokemon.co.jp/ex/winds_waves/ja/'
-          HOST = 'www.pokemon.co.jp'
-          SITE_PREFIX = '/ex/winds_waves/'
-          JA_PREFIX = '/ex/winds_waves/ja/'
-          OUT_ROOT = Path('assets/public/jp/site')
-          MANIFEST = Path('manifests/jp-public-png-census.json')
-          OUT_ROOT.mkdir(parents=True, exist_ok=True)
-          MANIFEST.parent.mkdir(parents=True, exist_ok=True)
+          ROOT='https://www.pokemon.co.jp/ex/winds_waves/ja/'
+          HOST='www.pokemon.co.jp'
+          SITE='/ex/winds_waves/'
+          JA='/ex/winds_waves/ja/'
+          MAX_PAGES=200
+          MAX_RESOURCES=250
+          OUT=Path('assets/public/jp/site')
+          MANIFEST=Path('manifests/jp-public-png-census.json')
+          OUT.mkdir(parents=True,exist_ok=True)
+          MANIFEST.parent.mkdir(parents=True,exist_ok=True)
 
-          class Parser(HTMLParser):
+          class P(HTMLParser):
               def __init__(self):
-                  super().__init__()
-                  self.attrs_seen = []
-              def handle_starttag(self, tag, attrs):
-                  for key, value in attrs:
-                      if value and key in {'href', 'src', 'srcset', 'poster'}:
-                          self.attrs_seen.append((tag, key, value))
+                  super().__init__(); self.attrs=[]
+              def handle_starttag(self,tag,attrs):
+                  for k,v in attrs:
+                      if v and k in {'href','src','srcset','poster'}: self.attrs.append((tag,k,v))
 
-          token_re = re.compile(r'''(?P<u>(?:https?:)?//[^\s"'<>]+?\.(?:png|css|js)(?:\?[^\s"'<>)]*)?|(?:\.\.?/|/)[^\s"'<>]+?\.(?:png|css|js)(?:\?[^\s"'<>)]*)?|[A-Za-z0-9_./%-]+\.(?:png|css|js)(?:\?[^\s"'<>)]*)?)''', re.I)
+          token=re.compile(r'''(?P<u>(?:https?:)?//[^\s"'<>]+?\.(?:png|css|js)(?:\?[^\s"'<>)]*)?|(?:\.\.?/|/)[^\s"'<>]+?\.(?:png|css|js)(?:\?[^\s"'<>)]*)?|[A-Za-z0-9_./%-]+\.(?:png|css|js)(?:\?[^\s"'<>)]*)?)''',re.I)
 
-          def normalize(base, raw):
-              raw = raw.strip().strip('"\'')
-              if not raw or raw.startswith(('data:', 'mailto:', 'javascript:')):
-                  return None
-              raw = raw.replace('\\/', '/')
-              url = urljoin(base, raw)
-              url, _ = urldefrag(url)
-              p = urlparse(url)
-              if p.scheme not in {'http', 'https'} or p.netloc != HOST:
-                  return None
-              if not p.path.startswith(SITE_PREFIX):
-                  return None
-              return url
+          def norm(base,raw):
+              raw=raw.strip().strip('"\'').replace('\\/','/')
+              if not raw or raw.startswith(('data:','mailto:','javascript:')): return None
+              u=urljoin(base,raw); p=urlparse(u)
+              if p.scheme not in {'http','https'} or p.netloc!=HOST or not p.path.startswith(SITE): return None
+              return f'https://{HOST}{p.path}'
 
-          def fetch(url, binary=False):
-              last = None
-              for attempt in range(3):
-                  try:
-                      req = Request(url, headers={'User-Agent': 'Mozilla/5.0 (compatible; Generation-X-public-source-census/1.0)'})
-                      with urlopen(req, timeout=30) as r:
-                          data = r.read()
-                          return data if binary else data.decode('utf-8', 'ignore')
-                  except Exception as e:
-                      last = repr(e)
-                      time.sleep(1 + attempt)
-              raise RuntimeError(f'{url}: {last}')
+          def get(url,binary=False,timeout=6):
+              req=Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; Generation-X-PNG-census/2.0)'})
+              with urlopen(req,timeout=timeout) as r:
+                  b=r.read()
+              return b if binary else b.decode('utf-8','ignore')
 
-          # Existing PNGs are canonical candidates for byte-identical deduplication.
-          hash_to_path = {}
-          for path in sorted(Path('assets').rglob('*.png')) if Path('assets').exists() else []:
-              try:
-                  h = hashlib.sha256(path.read_bytes()).hexdigest()
-                  hash_to_path.setdefault(h, path.as_posix())
-              except OSError:
-                  pass
+          hash_to_path={}
+          for f in sorted(Path('assets').rglob('*.png')) if Path('assets').exists() else []:
+              try: hash_to_path.setdefault(hashlib.sha256(f.read_bytes()).hexdigest(),f.as_posix())
+              except OSError: pass
 
-          pages = deque([ROOT])
-          resources = deque()
-          seen_pages = set()
-          seen_resources = set()
-          png_urls = set()
-          crawl_errors = []
-
-          while pages:
-              page = pages.popleft()
-              if page in seen_pages:
-                  continue
-              seen_pages.add(page)
-              try:
-                  text = fetch(page)
+          pages=deque([ROOT]); resources=deque(); seen_pages=set(); seen_res=set(); pngs=set(); errors=[]
+          while pages and len(seen_pages)<MAX_PAGES:
+              u=pages.popleft()
+              if u in seen_pages: continue
+              seen_pages.add(u)
+              try: text=get(u)
               except Exception as e:
-                  crawl_errors.append({'url': page, 'stage': 'html', 'error': str(e)})
-                  continue
+                  errors.append({'url':u,'stage':'html','error':repr(e)}); continue
+              p=P()
+              try: p.feed(text)
+              except Exception as e: errors.append({'url':u,'stage':'html-parse','error':repr(e)})
+              candidates=[]
+              for tag,k,v in p.attrs:
+                  vals=[x.strip().split()[0] for x in v.split(',') if x.strip()] if k=='srcset' else [v]
+                  candidates += [(tag,k,x) for x in vals]
+              candidates += [('inline','token',m.group('u')) for m in token.finditer(text)]
+              for tag,k,raw in candidates:
+                  x=norm(u,raw)
+                  if not x: continue
+                  path=urlparse(x).path.lower()
+                  if path.endswith('.png'): pngs.add(x)
+                  elif path.endswith(('.css','.js')): resources.append(x)
+                  elif tag=='a' and k=='href' and urlparse(x).path.startswith(JA): pages.append(x)
+              for tag,k,raw in p.attrs:
+                  if tag=='a' and k=='href':
+                      x=norm(u,raw)
+                      if x and urlparse(x).path.startswith(JA) and not urlparse(x).path.lower().endswith(('.png','.css','.js')): pages.append(x)
 
-              parser = Parser()
-              try:
-                  parser.feed(text)
-              except Exception:
-                  pass
-
-              candidates = []
-              for tag, key, value in parser.attrs_seen:
-                  values = [value]
-                  if key == 'srcset':
-                      values = [part.strip().split()[0] for part in value.split(',') if part.strip()]
-                  for value2 in values:
-                      candidates.append((tag, key, value2))
-              for m in token_re.finditer(text):
-                  candidates.append(('inline', 'token', m.group('u')))
-
-              for tag, key, raw in candidates:
-                  u = normalize(page, raw)
-                  if not u:
-                      continue
-                  path = urlparse(u).path.lower()
-                  if path.endswith('.png'):
-                      png_urls.add(u)
-                  elif path.endswith(('.css', '.js')):
-                      resources.append(u)
-                  elif tag == 'a' and key == 'href' and urlparse(u).path.startswith(JA_PREFIX):
-                      pages.append(u)
-
-              # Anchor URLs without file extensions are not matched by token_re; parse explicitly.
-              for tag, key, raw in parser.attrs_seen:
-                  if tag != 'a' or key != 'href':
-                      continue
-                  u = normalize(page, raw)
-                  if u and urlparse(u).path.startswith(JA_PREFIX):
-                      pages.append(u)
-
-          # Recursively inspect same-site JS/CSS because many PNG references live there.
-          while resources:
-              resource = resources.popleft()
-              if resource in seen_resources:
-                  continue
-              seen_resources.add(resource)
-              try:
-                  text = fetch(resource)
+          while resources and len(seen_res)<MAX_RESOURCES:
+              u=resources.popleft()
+              if u in seen_res: continue
+              seen_res.add(u)
+              try: text=get(u)
               except Exception as e:
-                  crawl_errors.append({'url': resource, 'stage': 'resource', 'error': str(e)})
-                  continue
-              for m in token_re.finditer(text):
-                  u = normalize(resource, m.group('u'))
-                  if not u:
-                      continue
-                  path = urlparse(u).path.lower()
-                  if path.endswith('.png'):
-                      png_urls.add(u)
-                  elif path.endswith(('.css', '.js')):
-                      resources.append(u)
+                  errors.append({'url':u,'stage':'resource','error':repr(e)}); continue
+              for m in token.finditer(text):
+                  x=norm(u,m.group('u'))
+                  if not x: continue
+                  path=urlparse(x).path.lower()
+                  if path.endswith('.png'): pngs.add(x)
+                  elif path.endswith(('.css','.js')) and len(seen_res)+len(resources)<MAX_RESOURCES*2: resources.append(x)
 
-          entries = []
-          new_files = []
-          for url in sorted(png_urls):
+          def download(u):
               try:
-                  data = fetch(url, binary=True)
-                  if not data.startswith(b'\x89PNG\r\n\x1a\n'):
-                      raise ValueError('not a PNG signature')
-                  sha256 = hashlib.sha256(data).hexdigest()
-                  existing = hash_to_path.get(sha256)
-                  if existing:
-                      repo_path = existing
-                      deduplicated = True
-                  else:
-                      rel = unquote(urlparse(url).path[len(SITE_PREFIX):]).lstrip('/')
-                      rel = os.path.normpath(rel).replace('\\', '/')
-                      if rel.startswith('../') or rel == '..':
-                          raise ValueError('unsafe relative path')
-                      dest = OUT_ROOT / rel
-                      dest.parent.mkdir(parents=True, exist_ok=True)
-                      dest.write_bytes(data)
-                      repo_path = dest.as_posix()
-                      hash_to_path[sha256] = repo_path
-                      new_files.append(repo_path)
-                      deduplicated = False
-                  entries.append({
-                      'source_url': url,
-                      'repository_path': repo_path,
-                      'sha256': sha256,
-                      'size': len(data),
-                      'deduplicated_to_existing': deduplicated,
-                      'status': 'verified-png'
-                  })
-              except Exception as e:
-                  entries.append({'source_url': url, 'status': 'download-error', 'error': str(e)})
+                  b=get(u,True,10)
+                  if not b.startswith(b'\x89PNG\r\n\x1a\n'): raise ValueError('invalid PNG signature')
+                  return u,b,None
+              except Exception as e: return u,None,repr(e)
 
-          manifest = {
-              'schema_version': 1,
-              'research_date': '2026-09-15',
-              'baseline': 'Japanese official Winds/Waves mini-site',
-              'root_url': ROOT,
-              'scope': 'Every PNG discoverable by crawling Japanese HTML pages and recursively scanning same-site JS/CSS referenced by those pages.',
-              'html_pages_crawled': len(seen_pages),
-              'text_resources_scanned': len(seen_resources),
-              'png_urls_discovered': len(png_urls),
-              'entries': entries,
-              'crawl_errors': crawl_errors,
-              'completion_note': 'Census is reproducible for the currently reachable official site surface; later site revisions require rerunning the workflow.'
-          }
-          MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-          Path('/tmp/new_png_files.txt').write_text('\n'.join(new_files) + ('\n' if new_files else ''), encoding='utf-8')
-          print(f'HTML pages crawled: {len(seen_pages)}')
-          print(f'JS/CSS resources scanned: {len(seen_resources)}')
-          print(f'PNG URLs discovered: {len(png_urls)}')
-          print(f'New PNG files: {len(new_files)}')
-          print(f'Errors: {len(crawl_errors)}')
+          results={}
+          with ThreadPoolExecutor(max_workers=16) as ex:
+              futs=[ex.submit(download,u) for u in sorted(pngs)]
+              for fut in as_completed(futs):
+                  u,b,e=fut.result(); results[u]=(b,e)
+
+          entries=[]; new_files=[]
+          for u in sorted(pngs):
+              b,e=results[u]
+              if e:
+                  entries.append({'source_url':u,'status':'download-error','error':e}); continue
+              h=hashlib.sha256(b).hexdigest(); existing=hash_to_path.get(h)
+              if existing:
+                  path=existing; dedup=True
+              else:
+                  rel=unquote(urlparse(u).path[len(SITE):]).lstrip('/')
+                  rel=os.path.normpath(rel).replace('\\','/')
+                  if rel=='..' or rel.startswith('../'):
+                      entries.append({'source_url':u,'status':'path-error'}); continue
+                  dest=OUT/rel; dest.parent.mkdir(parents=True,exist_ok=True); dest.write_bytes(b)
+                  path=dest.as_posix(); hash_to_path[h]=path; new_files.append(path); dedup=False
+              entries.append({'source_url':u,'repository_path':path,'sha256':h,'size':len(b),'deduplicated_to_existing':dedup,'status':'verified-png'})
+
+          manifest={
+            'schema_version':2,'research_date':'2026-09-15','baseline':'Japanese official Winds/Waves mini-site','root_url':ROOT,
+            'scope':'Reachable Japanese HTML plus same-site referenced JS/CSS; PNG bytes verified and SHA-256 deduplicated.',
+            'limits':{'max_html_pages':MAX_PAGES,'max_text_resources':MAX_RESOURCES},
+            'html_pages_crawled':len(seen_pages),'text_resources_scanned':len(seen_res),'png_urls_discovered':len(pngs),
+            'verified_png_count':sum(1 for x in entries if x.get('status')=='verified-png'),
+            'download_error_count':sum(1 for x in entries if x.get('status')=='download-error'),
+            'new_unique_png_count':len(new_files),'entries':entries,'crawl_errors':errors,
+            'completion_note':'Represents the currently reachable Japanese official surface under the recorded bounded crawl. Errors remain explicit and must be retried; later site changes require rerun.'}
+          MANIFEST.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          Path('/tmp/new_png_files.txt').write_text('\n'.join(new_files)+('\n' if new_files else ''),encoding='utf-8')
+          print(json.dumps({k:manifest[k] for k in ['html_pages_crawled','text_resources_scanned','png_urls_discovered','verified_png_count','download_error_count','new_unique_png_count']},indent=2))
           PY
 
-      - name: Commit new PNGs in reviewable batches
+      - name: Commit PNGs first in small batches, then manifest
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           mapfile -t files < /tmp/new_png_files.txt
-          batch=1
-          total=${#files[@]}
-          for ((i=0; i<total; i+=8)); do
+          n=${#files[@]}; batch=1
+          for ((i=0;i<n;i+=8)); do
             chunk=("${files[@]:i:8}")
             git add -- "${chunk[@]}"
             git commit -m "Add Japanese official PNG census chunk $(printf '%03d' "$batch")"
-            batch=$((batch + 1))
+            batch=$((batch+1))
           done
-
           git add manifests/jp-public-png-census.json
-          if ! git diff --cached --quiet; then
-            git commit -m 'Record Japanese official PNG census manifest'
-          fi
+          if ! git diff --cached --quiet; then git commit -m 'Record Japanese official PNG census manifest'; fi
           git push
