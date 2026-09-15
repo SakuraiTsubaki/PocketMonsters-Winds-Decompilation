@@ -1,0 +1,56 @@
+{
+  "research_date": "2026-09-15",
+  "targets": [
+    "image_1100.png",
+    "image_1101.png"
+  ],
+  "pages_checked": [
+    "https://www.pokemon.co.jp/ex/winds_waves/ja/",
+    "https://www.pokemon.co.jp/ex/winds_waves/ja/pokemon/",
+    "https://www.pokemon.co.jp/ex/winds_waves/ja/news/",
+    "https://www.pokemon.co.jp/ex/winds_waves/ja/news/202605_01/",
+    "https://www.pokemon.co.jp/ex/winds_waves/ja/news/202602_01/",
+    "https://www.pokemon.co.jp/ex/winds_waves/ja/news/202602_02/",
+    "https://www.pokemon.co.jp/ex/winds_waves/ja/news/202602_03/",
+    "https://www.pokemon.co.jp/ex/winds_waves/ja/pokemon/202602_01/",
+    "https://www.pokemon.co.jp/ex/winds_waves/ja/pokemon/202602_02/",
+    "https://www.pokemon.co.jp/ex/winds_waves/ja/pokemon/202602_03/",
+    "https://www.pokemon.co.jp/ex/winds_waves/ja/pokemon/202602_04/"
+  ],
+  "resources_successfully_scanned": 16,
+  "resource_candidates_seen": 22,
+  "match_count": 0,
+  "matches": [],
+  "errors": [
+    {
+      "url": "https://www.pokemon.co.jp/ex/winds_waves/assets/zt.style.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://www.pokemon.co.jp/ex/winds_waves/assets/r.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://www.pokemon.co.jp/ex/winds_waves/assets/v.style.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://www.pokemon.co.jp/ex/winds_waves/assets/.style.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://www.pokemon.co.jp/ex/winds_waves/assets/i.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://www.pokemon.co.jp/ex/winds_waves/assets/e.style.css",
+      "stage": "resource",
+      "error": "<HTTPError 404: 'Not Found'>"
+    }
+  ]
+}
