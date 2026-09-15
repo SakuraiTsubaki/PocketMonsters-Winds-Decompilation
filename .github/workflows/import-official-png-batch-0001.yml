@@ -1,0 +1,59 @@
+name: Import official PNG batch 0001
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/import-official-png-batch-0001.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  import-pngs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download Japanese official PNG assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          out='assets/public/jp/2026-02-27/pokemon'
+          mkdir -p "$out"
+          curl -fL --retry 3 --retry-delay 2 'https://www.pokemon.co.jp/ex/winds_waves/images/image_101.png' -o "$out/image_101.png"
+          curl -fL --retry 3 --retry-delay 2 'https://www.pokemon.co.jp/ex/winds_waves/images/image_102.png' -o "$out/image_102.png"
+          curl -fL --retry 3 --retry-delay 2 'https://www.pokemon.co.jp/ex/winds_waves/images/image_103.png' -o "$out/image_103.png"
+          curl -fL --retry 3 --retry-delay 2 'https://www.pokemon.co.jp/ex/winds_waves/images/image_104.png' -o "$out/image_104.png"
+
+      - name: Verify PNG signatures
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          root = Path('assets/public/jp/2026-02-27/pokemon')
+          sig = b'\x89PNG\r\n\x1a\n'
+          for p in sorted(root.glob('*.png')):
+              data = p.read_bytes()
+              if not data.startswith(sig):
+                  raise SystemExit(f'Not a PNG: {p}')
+              print(f'{p}: {len(data)} bytes')
+          PY
+
+      - name: Commit PNG assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/public/jp/2026-02-27/pokemon/*.png
+          if git diff --cached --quiet; then
+            echo 'No PNG changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Add Japanese official Pokemon PNG assets (batch 0001)'
+          git push
