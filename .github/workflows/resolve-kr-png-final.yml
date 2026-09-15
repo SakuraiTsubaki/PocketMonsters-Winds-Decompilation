@@ -1,0 +1,115 @@
+name: Resolve final Korean PNG candidate
+
+on:
+  push:
+    paths:
+      - '.github/workflows/resolve-kr-png-final.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  resolve-final:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Rebase final relative PNG candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib, json, os
+          from pathlib import Path
+          from urllib.parse import urlparse, unquote
+          from urllib.request import Request, urlopen
+
+          M=Path('manifests/kr-public-png-census.json')
+          OUT=Path('assets/public/kr/site')
+          data=json.loads(M.read_text(encoding='utf-8'))
+          targets=[e for e in data['entries'] if e.get('status')=='download-error']
+
+          hash_to_path={}
+          for f in Path('assets').rglob('*.png'):
+              try: hash_to_path.setdefault(hashlib.sha256(f.read_bytes()).hexdigest(),f.as_posix())
+              except OSError: pass
+
+          def fetch_png(url):
+              req=Request(url,headers={
+                  'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/152 Safari/537.36',
+                  'Accept':'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+                  'Referer':'https://pokemonkorea.co.kr/winds_waves',
+                  'Accept-Language':'ko-KR,ko;q=0.9,en;q=0.8'
+              })
+              with urlopen(req,timeout=10) as r:
+                  b=r.read(); final=r.geturl()
+              if not b.startswith(b'\x89PNG\r\n\x1a\n'): raise ValueError('invalid PNG signature')
+              return b,final
+
+          new_files=[]; resolved=0
+          for e in targets:
+              path=urlparse(e['source_url']).path
+              candidates=[]
+              if path.startswith('/winds_waves/'):
+                  candidates.append('https://pokemonkorea.co.kr/'+path[len('/winds_waves/'):].lstrip('/'))
+              candidates += [
+                  'https://pokemonkorea.co.kr/img/special/btn_top.png',
+                  'https://www.pokemonkorea.co.kr/img/special/btn_top.png'
+              ]
+              seen=[]; hit=None
+              for u in candidates:
+                  if u in seen: continue
+                  seen.append(u)
+                  try:
+                      b,final=fetch_png(u); hit=(u,b,final); break
+                  except Exception:
+                      pass
+              e['final_resolution_attempts']=seen
+              if not hit:
+                  e['resolution_status']='candidate-not-reproduced'
+                  e['classification_note']='Original relative-path candidate and rebased official-host candidates all returned no valid PNG.'
+                  e['status']='candidate-not-reproduced'
+                  e.pop('error',None); e.pop('retry_error',None)
+                  continue
+              u,b,final=hit; h=hashlib.sha256(b).hexdigest(); existing=hash_to_path.get(h)
+              if existing:
+                  repo_path=existing; dedup=True
+              else:
+                  p=urlparse(final); host=p.netloc.lower().replace(':','_')
+                  rel=unquote(p.path).lstrip('/') or 'index.png'
+                  rel=os.path.normpath(rel).replace('\\','/')
+                  dest=OUT/host/rel; dest.parent.mkdir(parents=True,exist_ok=True); dest.write_bytes(b)
+                  repo_path=dest.as_posix(); hash_to_path[h]=repo_path; new_files.append(repo_path); dedup=False
+              e.update({'status':'verified-png-resolved','resolution_status':'resolved-rebased','resolved_url':u,'final_url':final,'repository_path':repo_path,'sha256':h,'size':len(b),'deduplicated_to_existing':dedup})
+              e.pop('error',None); e.pop('retry_error',None); resolved+=1
+
+          valid={'verified-png','verified-png-resolved'}
+          data['verified_png_count']=sum(1 for e in data['entries'] if e.get('status') in valid)
+          data['download_error_count']=sum(1 for e in data['entries'] if e.get('status')=='download-error')
+          data['non_reproduced_candidate_count']=sum(1 for e in data['entries'] if e.get('status')=='candidate-not-reproduced')
+          data['new_unique_png_count']=sum(1 for e in data['entries'] if e.get('status') in valid and e.get('deduplicated_to_existing') is False)
+          data['deduplicated_existing_count']=sum(1 for e in data['entries'] if e.get('status') in valid and e.get('deduplicated_to_existing') is True)
+          data['final_resolution']={'date':'2026-09-15','target_count':len(targets),'resolved_count':resolved,'remaining_download_error_count':data['download_error_count'],'non_reproduced_candidate_count':data['non_reproduced_candidate_count']}
+          M.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          Path('/tmp/kr_final_new_files.txt').write_text('\n'.join(new_files)+('\n' if new_files else ''),encoding='utf-8')
+          print(json.dumps(data['final_resolution'],indent=2))
+          PY
+
+      - name: Commit PNG first, then final manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          mapfile -t files < /tmp/kr_final_new_files.txt
+          if ((${#files[@]}>0)); then
+            git add -- "${files[@]}"
+            git commit -m 'Add final resolved Korean official PNG'
+          fi
+          git add manifests/kr-public-png-census.json
+          if ! git diff --cached --quiet; then git commit -m 'Finalize Korean PNG census resolution'; fi
+          git push
