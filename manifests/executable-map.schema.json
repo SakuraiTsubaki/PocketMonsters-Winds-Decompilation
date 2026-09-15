@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/SakuraiTsubaki/PocketMonsters-Winds-Decompilation/manifests/executable-map.schema.json",
+  "title": "Generation X executable and container map",
+  "type": "object",
+  "required": ["schema_version", "target_id", "verification", "modules", "containers"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "target_id": {"type": "string", "minLength": 1},
+    "verification": {"enum": ["Unverified", "Observed", "Reproduced", "Matched"]},
+    "generated_at_utc": {"type": "string"},
+    "modules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "size", "sha256", "verification"],
+        "properties": {
+          "path": {"type": "string"},
+          "size": {"type": "integer", "minimum": 0},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "format": {"type": "string"},
+          "magic_hex": {"type": "string"},
+          "verification": {"enum": ["Unverified", "Observed", "Reproduced", "Matched"]},
+          "notes": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "containers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "size", "sha256", "verification"],
+        "properties": {
+          "path": {"type": "string"},
+          "size": {"type": "integer", "minimum": 0},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "format": {"type": "string"},
+          "magic_hex": {"type": "string"},
+          "verification": {"enum": ["Unverified", "Observed", "Reproduced", "Matched"]},
+          "notes": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "notes": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}
