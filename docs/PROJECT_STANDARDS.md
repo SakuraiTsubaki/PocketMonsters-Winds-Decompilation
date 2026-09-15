@@ -1,0 +1,3 @@
+# Project Standards
+
+Do not invent target facts. Use stable descriptive paths; preserve meaningful verified IDs; keep unknowns explicit; separate observations, official evidence, plans, and hypotheses; use hashes/stable IDs when applicable; deduplicate only after byte/hash confirmation. One live structure only: no `vN`, `PRE-VN`, `MIGRATED`, or parallel legacy trees. One canonical home per artifact/project. No complete ROM/game images or keys.
