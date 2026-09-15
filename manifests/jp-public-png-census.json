@@ -12,7 +12,7 @@
   "text_resources_scanned": 85,
   "png_urls_discovered": 84,
   "verified_png_count": 82,
-  "download_error_count": 2,
+  "download_error_count": 0,
   "new_unique_png_count": 28,
   "entries": [
     {
@@ -339,8 +339,7 @@
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_1100.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>",
+      "status": "candidate-not-reproduced",
       "resolution_attempts": [
         "https://www.pokemon.co.jp/ex/winds_waves/images/image_1100.png",
         "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_1100.png",
@@ -353,7 +352,7 @@
         "https://www.pokemon.co.jp/ex/winds_waves/ja/images/image_1100.png",
         "https://www.pokemon.co.jp/ex/winds_waves/image_1100.png"
       ],
-      "resolution_status": "unresolved-after-extended-probe",
+      "resolution_status": "not-currently-reproducible",
       "resolution_error": "No PNG found in general or known page-relative official directories.",
       "extended_probe_directories": [
         "ja/",
@@ -464,12 +463,12 @@
         "images/ja/news/202605_01/images/",
         "images/ja/news/202605_01/img/",
         "images/ja/news/202605_01/assets/"
-      ]
+      ],
+      "classification_note": "No literal reference was reproduced across the current 11 Japanese official HTML pages and the successfully scanned linked resources, and no valid PNG was found in the tested general or page-relative official directories. Preserved as a historical parser candidate; not counted as a current official PNG."
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_1101.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>",
+      "status": "candidate-not-reproduced",
       "resolution_attempts": [
         "https://www.pokemon.co.jp/ex/winds_waves/images/image_1101.png",
         "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_1101.png",
@@ -482,7 +481,7 @@
         "https://www.pokemon.co.jp/ex/winds_waves/ja/images/image_1101.png",
         "https://www.pokemon.co.jp/ex/winds_waves/image_1101.png"
       ],
-      "resolution_status": "unresolved-after-extended-probe",
+      "resolution_status": "not-currently-reproducible",
       "resolution_error": "No PNG found in general or known page-relative official directories.",
       "extended_probe_directories": [
         "ja/",
@@ -593,7 +592,8 @@
         "images/ja/news/202605_01/images/",
         "images/ja/news/202605_01/img/",
         "images/ja/news/202605_01/assets/"
-      ]
+      ],
+      "classification_note": "No literal reference was reproduced across the current 11 Japanese official HTML pages and the successfully scanned linked resources, and no valid PNG was found in the tested general or page-relative official directories. Preserved as a historical parser candidate; not counted as a current official PNG."
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_111.png",
@@ -1400,5 +1400,16 @@
     "resolved_count": 0,
     "remaining_unresolved_count": 2,
     "new_unique_png_count": 0
+  },
+  "actionable_unresolved_count": 0,
+  "non_reproduced_candidate_count": 2,
+  "current_surface_status": "closed-with-non-reproduced-candidates",
+  "current_surface_note": "For the currently reachable Japanese official surface, all reproducible PNG references found by the census are stored or hash-deduplicated in the repository. Two historical parser candidates are retained separately because they could not be reproduced as current literal references or valid PNG files. Future site revisions must be recrawled.",
+  "finalization": {
+    "date": "2026-09-15",
+    "entries_reclassified": 2,
+    "diagnostic_match_count": 0,
+    "actionable_unresolved_count": 0,
+    "non_reproduced_candidate_count": 2
   }
 }
