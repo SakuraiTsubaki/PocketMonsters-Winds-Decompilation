@@ -11,8 +11,8 @@
   "html_pages_crawled": 11,
   "text_resources_scanned": 85,
   "png_urls_discovered": 84,
-  "verified_png_count": 44,
-  "download_error_count": 40,
+  "verified_png_count": 82,
+  "download_error_count": 2,
   "new_unique_png_count": 28,
   "entries": [
     {
@@ -57,193 +57,601 @@
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_001.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_001.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_001.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_001.png",
+      "repository_path": "assets/public/jp/2026-02-27/logos/image_001.png",
+      "sha256": "cd52a3c509c515857e5068feb9ce44c809842813edaea0c056cf73c829b0f47a",
+      "size": 312289,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_002.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_002.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_002.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_002.png",
+      "repository_path": "assets/public/jp/2026-02-27/logos/image_002.png",
+      "sha256": "c2df0365107acc3ca0aeb6a2a4ab669b796ea394662a576fefcb4eec99145821",
+      "size": 205884,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_003.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_003.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_003.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/sc/image_003.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/tc/image_003.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_003.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/pc/image_003.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/title/ja/pc/image_003.png",
+      "repository_path": "assets/public/jp/2026-02-27/title/image_003.png",
+      "sha256": "4e8ee6fc257bddcdee1e9f221bbbb6768dffbceebf7838381706b2bd76201793",
+      "size": 139939,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_004.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_004.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_004.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/sc/image_004.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/tc/image_004.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_004.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/pc/image_004.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/title/ja/pc/image_004.png",
+      "repository_path": "assets/public/jp/2026-02-27/title/image_004.png",
+      "sha256": "d70c5ca23d2e18ec9e4f05df8ca6b6bedfde11fabcd6852a8c6538dd127ee9eb",
+      "size": 381185,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_010.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_010.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_010.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/sc/image_010.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/tc/image_010.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_010.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_010.png",
+      "repository_path": "assets/public/jp/2026-02-27/title/image_010.png",
+      "sha256": "61067c15ce2861afca89b3476b87a85a751451beb123fc2473f2da8b15cb2c6c",
+      "size": 969152,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_012.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_012.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_012.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/sc/image_012.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/tc/image_012.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_012.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_012.png",
+      "repository_path": "assets/public/jp/2026-02-27/title/image_012.png",
+      "sha256": "e12a66e27f77a76e3d2e9f30bc193359e3f0649fcf1f4ba05aecff1a7c33edf0",
+      "size": 543783,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_013.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_013.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_013.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/sc/image_013.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/tc/image_013.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_013.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_013.png",
+      "repository_path": "assets/public/jp/2026-02-27/title/image_013.png",
+      "sha256": "4c1012749801f30341413921560294e23b1a3b5dae00bf0b90c1b57e0529da62",
+      "size": 583409,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_014.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_014.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_014.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/sc/image_014.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/tc/image_014.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_014.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_014.png",
+      "repository_path": "assets/public/jp/2026-02-27/title/image_014.png",
+      "sha256": "4dd9a2787e6243df9349df25126724ef969ef4c8b7f23c43fcd97752b590ee79",
+      "size": 580048,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_030.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_030.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_030.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/sc/image_030.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/tc/image_030.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_030.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_030.png",
+      "repository_path": "assets/public/jp/2026-02-27/title/image_030.png",
+      "sha256": "397d4dfb90bbb240d07f3ae720b99381593baa64e3767bb6e6b13eceb2bacc43",
+      "size": 596442,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_101.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_101.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/image_101.png",
+      "repository_path": "assets/public/jp/2026-02-27/pokemon/image_101.png",
+      "sha256": "33909a123d2ea496873daeb4ffd6f1c07b0e7a25bc4fc52ea94bcff7e5be8e24",
+      "size": 397746,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_102.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_102.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/image_102.png",
+      "repository_path": "assets/public/jp/2026-02-27/pokemon/image_102.png",
+      "sha256": "6435b635e2dc6a8a6f256e946072894b01f9e27b452872f087a66acfc71508bb",
+      "size": 484717,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_103.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_103.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/image_103.png",
+      "repository_path": "assets/public/jp/2026-02-27/pokemon/image_103.png",
+      "sha256": "fc2493d2e9a3d94b2a62a2fca865178309afd04016dbd697bc92f67835bc4cd3",
+      "size": 387386,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_104.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_104.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/image_104.png",
+      "repository_path": "assets/public/jp/2026-02-27/pokemon/image_104.png",
+      "sha256": "df7fa3ae3a16104ead9b8a49fc628c326279d72c582bcf89bb578c93e9fc54f9",
+      "size": 1088381,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_105.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_105.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_105.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_105.png",
+      "repository_path": "assets/public/jp/site/images/ja/image_105.png",
+      "sha256": "d67a37934b7b62408ca6c5cc9dea8043fa4063f1f85883585418a01be6c666ba",
+      "size": 2870331,
+      "deduplicated_to_existing": false,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_106.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_106.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/image_106.png",
+      "repository_path": "assets/public/jp/site/images/image_106.png",
+      "sha256": "f7f23837b05a7733a4fdddf72b34321d46bedee53f050ec287a044a63b007bb2",
+      "size": 2682997,
+      "deduplicated_to_existing": false,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_107.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_107.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_107.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_107.png",
+      "repository_path": "assets/public/jp/site/images/ja/image_107.png",
+      "sha256": "5a5076d61ab4d9589db3e9606c4b98a88ae45cfb1ac9a979668fa86178440759",
+      "size": 2072110,
+      "deduplicated_to_existing": false,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_108.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_108.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/image_108.png",
+      "repository_path": "assets/public/jp/site/images/image_108.png",
+      "sha256": "c1a494bf3191ae68470ae5491cfc3a87700d8a2c5aef959cc33b10f7c0cae2a7",
+      "size": 2034966,
+      "deduplicated_to_existing": false,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_109.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_109.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_109.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_109.png",
+      "repository_path": "assets/public/jp/site/images/ja/image_109.png",
+      "sha256": "4a58930da43f950506188d8008516d08f8c23ef0b89c6fc1294adfd0797a0769",
+      "size": 2551882,
+      "deduplicated_to_existing": false,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_110.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_110.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/image_110.png",
+      "repository_path": "assets/public/jp/site/images/image_110.png",
+      "sha256": "7048cee09e38952cb32ca62532f2cfc54a1b5b68fa8af39278ff515e3a3a8648",
+      "size": 2545935,
+      "deduplicated_to_existing": false,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_1100.png",
       "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "error": "<HTTPError 404: 'Not Found'>",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_1100.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_1100.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/sc/image_1100.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/tc/image_1100.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_1100.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/pc/image_1100.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/icons/image_1100.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/ja/image_1100.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/ja/images/image_1100.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/image_1100.png"
+      ],
+      "resolution_status": "unresolved",
+      "resolution_error": "not-found-in-tested-official-prefixes"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_1101.png",
       "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "error": "<HTTPError 404: 'Not Found'>",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_1101.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_1101.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/sc/image_1101.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/tc/image_1101.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_1101.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/pc/image_1101.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/icons/image_1101.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/ja/image_1101.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/ja/images/image_1101.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/image_1101.png"
+      ],
+      "resolution_status": "unresolved",
+      "resolution_error": "not-found-in-tested-official-prefixes"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_111.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_111.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_111.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_111.png",
+      "repository_path": "assets/public/jp/site/images/ja/image_111.png",
+      "sha256": "66593df227300e086df9d6bf451e5f63e800ea53c07c29727217736177bb9c09",
+      "size": 1381101,
+      "deduplicated_to_existing": false,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_150.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_150.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/image_150.png",
+      "repository_path": "assets/public/jp/2026-02-27/characters/image_150.png",
+      "sha256": "85e20fc349cf9e4e6152b0548aa7e358f44686263911fa9eb11ce4e44ceff427",
+      "size": 516902,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_151.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_151.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/image_151.png",
+      "repository_path": "assets/public/jp/2026-02-27/characters/image_151.png",
+      "sha256": "daf651b5851b614c304e18e3f4aa3573be0cd85e77a5b25fb9184fc4c7eb94c1",
+      "size": 498405,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_152.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_152.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/image_152.png",
+      "repository_path": "assets/public/jp/2026-02-27/characters/image_152.png",
+      "sha256": "1f9d0931240202f5cc83079a5db77a029f315d7344495778c5c08137eb474c5e",
+      "size": 2651210,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_201.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_201.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/image_201.png",
+      "repository_path": "assets/public/jp/site/images/image_201.png",
+      "sha256": "35ca321c84e6d56fcee9a01f200491ee926ea4b36f5312405b676f52c0437229",
+      "size": 875409,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_500.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_500.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_500.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/sc/image_500.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/tc/image_500.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_500.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_500.png",
+      "repository_path": "assets/public/jp/site/title/ja/image_500.png",
+      "sha256": "4502e7cf2d9c51be4a3cd36c74390f63c78ec0179e1d8b8f6f1089556f3cee3e",
+      "size": 759484,
+      "deduplicated_to_existing": false,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_501.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_501.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_501.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/sc/image_501.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/tc/image_501.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_501.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/pc/image_501.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/title/ja/pc/image_501.png",
+      "repository_path": "assets/public/jp/site/title/ja/pc/image_501.png",
+      "sha256": "8c7a16ce02fdb130783b79874fbfc1c739d73ed5713aa8be5e4f5c1f5ac94459",
+      "size": 1934883,
+      "deduplicated_to_existing": false,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_502.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_502.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_502.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/sc/image_502.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/tc/image_502.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_502.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/pc/image_502.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/title/ja/pc/image_502.png",
+      "repository_path": "assets/public/jp/site/title/ja/pc/image_502.png",
+      "sha256": "273d49e7b6ab6dbe7308da66daf2f1d57e4afd25656619f80524f8ca0b38d6ab",
+      "size": 496065,
+      "deduplicated_to_existing": false,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_503.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_503.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_503.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/sc/image_503.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/tc/image_503.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_503.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/pc/image_503.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/title/ja/pc/image_503.png",
+      "repository_path": "assets/public/jp/site/title/ja/pc/image_503.png",
+      "sha256": "543279daf8740c5c5d643d2e5b8b61ff795a9c1e0f252360c13a439c0e8b1409",
+      "size": 476923,
+      "deduplicated_to_existing": false,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_504.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_504.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_504.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/sc/image_504.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/tc/image_504.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_504.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/pc/image_504.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/title/ja/pc/image_504.png",
+      "repository_path": "assets/public/jp/site/title/ja/pc/image_504.png",
+      "sha256": "5892f91cc618e45bffa9833e08694a79352be999c84634cbb1591c47a9d23a60",
+      "size": 645744,
+      "deduplicated_to_existing": false,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/image_505.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_505.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_505.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/sc/image_505.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/tc/image_505.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/image_505.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/pc/image_505.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/title/ja/pc/image_505.png",
+      "repository_path": "assets/public/jp/site/title/ja/pc/image_505.png",
+      "sha256": "929701f5c79fbb1c207648c956726e21a3c47efd495997ca86e5528636551eef",
+      "size": 571352,
+      "deduplicated_to_existing": false,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/ja/image_202.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_202.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_202.png",
+      "repository_path": "assets/public/jp/site/images/ja/image_202.png",
+      "sha256": "06497199b7a47f3d59e13518917dbd69c90aabbf21e0418b26aedff21337ead7",
+      "size": 2223434,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/ja/image_203.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_203.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/ja/image_203.png",
+      "repository_path": "assets/public/jp/site/images/ja/image_203.png",
+      "sha256": "e8f3576e362d3e5118fc8102cbfbfb3ee7c945348d90d521f48ed682283d41f6",
+      "size": 1719809,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/ogp-sc.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ogp-sc.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/ogp-sc.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/sc/ogp-sc.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/tc/ogp-sc.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/ogp-sc.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/pc/ogp-sc.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/icons/ogp-sc.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/ja/ogp-sc.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/ja/images/ogp-sc.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/ogp-sc.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/ogp-sc.png",
+      "repository_path": "assets/public/jp/site/ogp-sc.png",
+      "sha256": "cccce5cb5787184b7877d1088c532c54c53e6ee28b14bcec5dc5dfd8625d8944",
+      "size": 733403,
+      "deduplicated_to_existing": false,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/ogp-tc.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ogp-tc.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/ogp-tc.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/sc/ogp-tc.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/tc/ogp-tc.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/ogp-tc.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/pc/ogp-tc.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/icons/ogp-tc.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/ja/ogp-tc.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/ja/images/ogp-tc.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/ogp-tc.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/ogp-tc.png",
+      "repository_path": "assets/public/jp/site/ogp-tc.png",
+      "sha256": "e18c33ee2375e72d7840b487628b8836a0557d51ad3708c61aed253bab1f9023",
+      "size": 735910,
+      "deduplicated_to_existing": false,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/ogp.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ogp.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/ja/ogp.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/sc/ogp.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/images/tc/ogp.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/ogp.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/title/ja/pc/ogp.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/icons/ogp.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/ja/ogp.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/ja/images/ogp.png",
+        "https://www.pokemon.co.jp/ex/winds_waves/ogp.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/ogp.png",
+      "repository_path": "assets/public/jp/site/ogp.png",
+      "sha256": "28681b31f395f199e7228de0bbb89b79d9bea6d53fe5eac7f40ea0eb3fe4cd65",
+      "size": 731719,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/sc/image_202.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/sc/image_202.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/sc/image_202.png",
+      "repository_path": "assets/public/jp/site/images/sc/image_202.png",
+      "sha256": "4a6e76f5efe59abac87839f46a481359ac68b602b244064a9b4eb573e0ba5be6",
+      "size": 2085923,
+      "deduplicated_to_existing": false,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/sound-off.BKw7oP9Z.png",
@@ -263,8 +671,16 @@
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/assets/tc/image_202.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/tc/image_202.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/tc/image_202.png",
+      "repository_path": "assets/public/jp/site/images/tc/image_202.png",
+      "sha256": "1b0d47d9f40051a5ae46bde962fb614e201649f4277b993d4ecac69fe360337b",
+      "size": 2085579,
+      "deduplicated_to_existing": false,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/icons/ball-white.png",
@@ -436,8 +852,16 @@
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/ja/image_101.png",
-      "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "status": "verified-png-resolved",
+      "resolution_attempts": [
+        "https://www.pokemon.co.jp/ex/winds_waves/images/image_101.png"
+      ],
+      "resolved_url": "https://www.pokemon.co.jp/ex/winds_waves/images/image_101.png",
+      "repository_path": "assets/public/jp/2026-02-27/pokemon/image_101.png",
+      "sha256": "33909a123d2ea496873daeb4ffd6f1c07b0e7a25bc4fc52ea94bcff7e5be8e24",
+      "size": 397746,
+      "deduplicated_to_existing": true,
+      "resolution_status": "resolved"
     },
     {
       "source_url": "https://www.pokemon.co.jp/ex/winds_waves/ogp.png",
@@ -730,5 +1154,24 @@
       "error": "<HTTPError 404: 'Not Found'>"
     }
   ],
-  "completion_note": "Represents the currently reachable Japanese official surface under the recorded bounded crawl. Errors remain explicit and must be retried; later site changes require rerun."
+  "completion_note": "Represents the currently reachable Japanese official surface under the recorded bounded crawl. Errors remain explicit and must be retried; later site changes require rerun.",
+  "resolver": {
+    "date": "2026-09-15",
+    "tested_prefixes": [
+      "images/",
+      "images/ja/",
+      "images/sc/",
+      "images/tc/",
+      "title/ja/",
+      "title/ja/pc/",
+      "icons/",
+      "ja/",
+      "ja/images/",
+      ""
+    ],
+    "resolved_count": 38,
+    "unresolved_count": 2,
+    "new_unique_png_count": 17
+  },
+  "remaining_unresolved_count": 2
 }
