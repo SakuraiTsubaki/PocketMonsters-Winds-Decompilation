@@ -1,18 +1,23 @@
 # Project Status
 
-**Current stage:** Initial setup
+**Current stage:** Phase 0 — target inventory / pre-decompilation baseline
 
-This document tracks decompilation progress, target-version coverage, validation level, and the next major milestones.
+The repository now has an explicit decompilation workflow, reconstructed-source root, and machine-readable target inventory. No verified target build is currently inventoried, so binary-specific analysis has not started yet.
 
 ## Version inventory
 
 | Target | Region | Language | Revision / update | Verification | Notes |
 | --- | --- | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD | Unverified | Populate as research begins |
+| Not yet inventoried | — | — | — | Unverified | Add only after a target build is directly observed and verified |
+
+Machine-readable inventory: `manifests/version-inventory.json`
 
 ## Progress
 
-- [ ] Establish authoritative version/revision inventory
+- [x] Establish decompilation workflow and repository rules
+- [x] Create reconstructed-source root (`src/`)
+- [x] Create machine-readable target version inventory
+- [ ] Inventory first verified target build
 - [ ] Document executable and section layout
 - [ ] Map symbols, functions, and major subsystems
 - [ ] Document game-data formats and resource containers
@@ -30,9 +35,9 @@ This document tracks decompilation progress, target-version coverage, validation
 
 ## Next milestones
 
-1. Identify and document supported target versions.
-2. Build an initial executable/data map.
-3. Select the first subsystem for source reconstruction.
-4. Record findings in `docs/` and verification evidence in issues or manifests.
+1. Inventory the first verified target version/revision without committing the retail image or keys.
+2. Record non-sensitive hashes and version metadata in `manifests/version-inventory.json`.
+3. Build the first executable/data-container map from direct observation.
+4. Select the first subsystem for source reconstruction only after the map exists.
 
-Update this file whenever the project reaches a meaningful milestone or adds a new supported target.
+See `docs/DECOMPILATION_WORKFLOW.md` for the required evidence and verification flow.
