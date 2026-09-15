@@ -3306,7 +3306,10 @@
         "https://pokemonkorea.co.kr/winds_waves/menu725?mode=view&number=4181"
       ],
       "status": "download-error",
-      "error": "<HTTPError 404: 'Not Found'>"
+      "error": "<HTTPError 404: 'Not Found'>",
+      "retry_date": "2026-09-15",
+      "resolution_status": "unresolved-after-retry",
+      "retry_error": "<HTTPError 404: 'Not Found'>"
     }
   ],
   "crawl_errors": [
@@ -3486,5 +3489,11 @@
       "error": "<HTTPError 404: 'Not Found'>"
     }
   ],
-  "completion_note": "Current reachable Korean official surface census. Any download/crawl errors remain explicit; later page revisions require rerun."
+  "completion_note": "Current reachable Korean official surface census. Any download/crawl errors remain explicit; later page revisions require rerun.",
+  "error_resolution": {
+    "date": "2026-09-15",
+    "initial_failed_count": 1,
+    "resolved_count": 0,
+    "remaining_failed_count": 1
+  }
 }
