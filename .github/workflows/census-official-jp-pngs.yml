@@ -1,0 +1,244 @@
+name: Census all official Japanese PNG assets
+
+on:
+  push:
+    paths:
+      - '.github/workflows/census-official-jp-pngs.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  census-png:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Crawl Japanese official site and download every discoverable PNG
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib
+          import json
+          import os
+          import re
+          import time
+          from collections import deque
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.parse import urljoin, urlparse, urldefrag, unquote
+          from urllib.request import Request, urlopen
+
+          ROOT = 'https://www.pokemon.co.jp/ex/winds_waves/ja/'
+          HOST = 'www.pokemon.co.jp'
+          SITE_PREFIX = '/ex/winds_waves/'
+          JA_PREFIX = '/ex/winds_waves/ja/'
+          OUT_ROOT = Path('assets/public/jp/site')
+          MANIFEST = Path('manifests/jp-public-png-census.json')
+          OUT_ROOT.mkdir(parents=True, exist_ok=True)
+          MANIFEST.parent.mkdir(parents=True, exist_ok=True)
+
+          class Parser(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.attrs_seen = []
+              def handle_starttag(self, tag, attrs):
+                  for key, value in attrs:
+                      if value and key in {'href', 'src', 'srcset', 'poster'}:
+                          self.attrs_seen.append((tag, key, value))
+
+          token_re = re.compile(r'''(?P<u>(?:https?:)?//[^\s"'<>]+?\.(?:png|css|js)(?:\?[^\s"'<>)]*)?|(?:\.\.?/|/)[^\s"'<>]+?\.(?:png|css|js)(?:\?[^\s"'<>)]*)?|[A-Za-z0-9_./%-]+\.(?:png|css|js)(?:\?[^\s"'<>)]*)?)''', re.I)
+
+          def normalize(base, raw):
+              raw = raw.strip().strip('"\'')
+              if not raw or raw.startswith(('data:', 'mailto:', 'javascript:')):
+                  return None
+              raw = raw.replace('\\/', '/')
+              url = urljoin(base, raw)
+              url, _ = urldefrag(url)
+              p = urlparse(url)
+              if p.scheme not in {'http', 'https'} or p.netloc != HOST:
+                  return None
+              if not p.path.startswith(SITE_PREFIX):
+                  return None
+              return url
+
+          def fetch(url, binary=False):
+              last = None
+              for attempt in range(3):
+                  try:
+                      req = Request(url, headers={'User-Agent': 'Mozilla/5.0 (compatible; Generation-X-public-source-census/1.0)'})
+                      with urlopen(req, timeout=30) as r:
+                          data = r.read()
+                          return data if binary else data.decode('utf-8', 'ignore')
+                  except Exception as e:
+                      last = repr(e)
+                      time.sleep(1 + attempt)
+              raise RuntimeError(f'{url}: {last}')
+
+          # Existing PNGs are canonical candidates for byte-identical deduplication.
+          hash_to_path = {}
+          for path in sorted(Path('assets').rglob('*.png')) if Path('assets').exists() else []:
+              try:
+                  h = hashlib.sha256(path.read_bytes()).hexdigest()
+                  hash_to_path.setdefault(h, path.as_posix())
+              except OSError:
+                  pass
+
+          pages = deque([ROOT])
+          resources = deque()
+          seen_pages = set()
+          seen_resources = set()
+          png_urls = set()
+          crawl_errors = []
+
+          while pages:
+              page = pages.popleft()
+              if page in seen_pages:
+                  continue
+              seen_pages.add(page)
+              try:
+                  text = fetch(page)
+              except Exception as e:
+                  crawl_errors.append({'url': page, 'stage': 'html', 'error': str(e)})
+                  continue
+
+              parser = Parser()
+              try:
+                  parser.feed(text)
+              except Exception:
+                  pass
+
+              candidates = []
+              for tag, key, value in parser.attrs_seen:
+                  values = [value]
+                  if key == 'srcset':
+                      values = [part.strip().split()[0] for part in value.split(',') if part.strip()]
+                  for value2 in values:
+                      candidates.append((tag, key, value2))
+              for m in token_re.finditer(text):
+                  candidates.append(('inline', 'token', m.group('u')))
+
+              for tag, key, raw in candidates:
+                  u = normalize(page, raw)
+                  if not u:
+                      continue
+                  path = urlparse(u).path.lower()
+                  if path.endswith('.png'):
+                      png_urls.add(u)
+                  elif path.endswith(('.css', '.js')):
+                      resources.append(u)
+                  elif tag == 'a' and key == 'href' and urlparse(u).path.startswith(JA_PREFIX):
+                      pages.append(u)
+
+              # Anchor URLs without file extensions are not matched by token_re; parse explicitly.
+              for tag, key, raw in parser.attrs_seen:
+                  if tag != 'a' or key != 'href':
+                      continue
+                  u = normalize(page, raw)
+                  if u and urlparse(u).path.startswith(JA_PREFIX):
+                      pages.append(u)
+
+          # Recursively inspect same-site JS/CSS because many PNG references live there.
+          while resources:
+              resource = resources.popleft()
+              if resource in seen_resources:
+                  continue
+              seen_resources.add(resource)
+              try:
+                  text = fetch(resource)
+              except Exception as e:
+                  crawl_errors.append({'url': resource, 'stage': 'resource', 'error': str(e)})
+                  continue
+              for m in token_re.finditer(text):
+                  u = normalize(resource, m.group('u'))
+                  if not u:
+                      continue
+                  path = urlparse(u).path.lower()
+                  if path.endswith('.png'):
+                      png_urls.add(u)
+                  elif path.endswith(('.css', '.js')):
+                      resources.append(u)
+
+          entries = []
+          new_files = []
+          for url in sorted(png_urls):
+              try:
+                  data = fetch(url, binary=True)
+                  if not data.startswith(b'\x89PNG\r\n\x1a\n'):
+                      raise ValueError('not a PNG signature')
+                  sha256 = hashlib.sha256(data).hexdigest()
+                  existing = hash_to_path.get(sha256)
+                  if existing:
+                      repo_path = existing
+                      deduplicated = True
+                  else:
+                      rel = unquote(urlparse(url).path[len(SITE_PREFIX):]).lstrip('/')
+                      rel = os.path.normpath(rel).replace('\\', '/')
+                      if rel.startswith('../') or rel == '..':
+                          raise ValueError('unsafe relative path')
+                      dest = OUT_ROOT / rel
+                      dest.parent.mkdir(parents=True, exist_ok=True)
+                      dest.write_bytes(data)
+                      repo_path = dest.as_posix()
+                      hash_to_path[sha256] = repo_path
+                      new_files.append(repo_path)
+                      deduplicated = False
+                  entries.append({
+                      'source_url': url,
+                      'repository_path': repo_path,
+                      'sha256': sha256,
+                      'size': len(data),
+                      'deduplicated_to_existing': deduplicated,
+                      'status': 'verified-png'
+                  })
+              except Exception as e:
+                  entries.append({'source_url': url, 'status': 'download-error', 'error': str(e)})
+
+          manifest = {
+              'schema_version': 1,
+              'research_date': '2026-09-15',
+              'baseline': 'Japanese official Winds/Waves mini-site',
+              'root_url': ROOT,
+              'scope': 'Every PNG discoverable by crawling Japanese HTML pages and recursively scanning same-site JS/CSS referenced by those pages.',
+              'html_pages_crawled': len(seen_pages),
+              'text_resources_scanned': len(seen_resources),
+              'png_urls_discovered': len(png_urls),
+              'entries': entries,
+              'crawl_errors': crawl_errors,
+              'completion_note': 'Census is reproducible for the currently reachable official site surface; later site revisions require rerunning the workflow.'
+          }
+          MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          Path('/tmp/new_png_files.txt').write_text('\n'.join(new_files) + ('\n' if new_files else ''), encoding='utf-8')
+          print(f'HTML pages crawled: {len(seen_pages)}')
+          print(f'JS/CSS resources scanned: {len(seen_resources)}')
+          print(f'PNG URLs discovered: {len(png_urls)}')
+          print(f'New PNG files: {len(new_files)}')
+          print(f'Errors: {len(crawl_errors)}')
+          PY
+
+      - name: Commit new PNGs in reviewable batches
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          mapfile -t files < /tmp/new_png_files.txt
+          batch=1
+          total=${#files[@]}
+          for ((i=0; i<total; i+=8)); do
+            chunk=("${files[@]:i:8}")
+            git add -- "${chunk[@]}"
+            git commit -m "Add Japanese official PNG census chunk $(printf '%03d' "$batch")"
+            batch=$((batch + 1))
+          done
+
+          git add manifests/jp-public-png-census.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record Japanese official PNG census manifest'
+          fi
+          git push
