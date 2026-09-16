@@ -14,6 +14,7 @@ This directory is the documentation portal for the planned decompilation project
 | [Repository Structure](REPOSITORY_STRUCTURE.md) | Planned source/data/tool layout that must adapt to verified target architecture |
 | [Project Standards](PROJECT_STANDARDS.md) | Naming, provenance, manifest, generated-data, and repository-boundary rules |
 | [Asset Workflow](ASSET_WORKFLOW.md) | Asset handling only after target identity and resource structure are verified |
+| [Analysis Toolchain](TOOLCHAIN.md) | Reproducible reverse-engineering tools and emulator-research environment |
 | [Manifest Guide](../manifests/README.md) | Target-aware inventories, hashes, provenance, and shared-asset metadata |
 | [Contributing](../CONTRIBUTING.md) | Contribution rules, evidence expectations, commits, and pull-request guidance |
 
